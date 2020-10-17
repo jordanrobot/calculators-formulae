@@ -1,67 +1,59 @@
 ---
-layout: default
-title: Shockload
-nav_order:
+title: Shockload Forces
+#weight: 
 ---
-[gimmick: math]()
 
-Shockload Force
-===
-
-Notes & Use
----
+#### Notes & Use
 
 Calculates the force subjected to a body during a shockload event for the following cases:
 
-* Distance fallen, and stopping distance
-* Distance fallen, and wire rope type and diameter
-* Distance fallen, and rope (percentage elongation)
+* Distance fallen, by stopping distance
+* Distance fallen, by wire rope type and diameter
+* Distance fallen, by rope (percentage elongation)
 
-
-by Distance
+#### By Distance
 ---
 
-#### Terms:
+##### Terms:
 
 |Variable|Description|Unit|
 |-----|-----|-----|
-|m | mass| *pounds*|
-|l<sub>fall</sub> | Falling distance | *in*|
-|d | Stopping distance | *in*|
-|F<sub>shock</sub> | Force due to shockload| *lbf*|
+|$m$ | mass| *pounds*|
+|$l_{fall}$ | Falling distance | *in*|
+|$d$ | Stopping distance | *in*|
+|$F_{shock}$ | Force due to shockload| *lbf*|
 
-#### Equation
+##### Equation
 
-$$ F&#x005F;{shock} = m \, \left( \frac {l&#x005F;{fall}}{d} + 1 \right) $$
+$$ F_{shock} = m \, \left( \frac {l_{fall}}{d} + 1 \right) $$
 
-___
 
-Wire Rope
----
+#### By Wire Rope
 
-#### Terms:
+##### Terms:
 
 |Variable|Description|Unit|
 |-----|-----|-----|
-|m | mass| *pounds*|
-|l<sub>fall</sub> | Falling distance| *in*|
-|d<sub>rope</sub> | Diameter of wire rope| *in*|
-|l<sub>rope</sub> | Length of wire rope| *ft*|
-|x | Wire rope area factor| *unitless*|
-|E | 15,000,000 |*psi*|
-|F<sub>shock</sub> | Force due to shockload| *lbf*|
+|$m$ | mass| *pounds*|
+|$l_{fall}$ | Falling distance| *in*|
+|$d_{rope}$ | Diameter of wire rope| *in*|
+|$l_{rope}$ | Length of wire rope| *ft*|
+|$x$ | Wire rope area factor| *unitless*|
+|$E$ | 15,000,000 |*psi*|
+|$F_{shock}$ | Force due to shockload| *lbf*|
 
-#### Equation
+##### Equations
 
-$$ F&#x005F;{shock} = \left( 
+$$ F_{shock} = \left( 
     1 + \sqrt {
         1+ \frac
-        { 2 \, l&#x005F;{fall} \, E \, x \, d&#x005F;{rope}^2}
-        { 12 \, m \, l&#x005F;{rope} }
+        { 2 \, l_{fall} \, E \, x \, d_{rope}^2}
+        { 12 \, m \, l_{rope} }
 }
 \right) $$
 
-#### Wire Rope Area Factors ####
+
+##### Wire Rope Area Factors
 
 |Type|Factor|
 |------|------|
@@ -74,40 +66,35 @@ $$ F&#x005F;{shock} = \left(
 |8x19W, fiber core|0.366|
 |8x19W, IWRC|0.497|
 
-___
 
-Percent Rope Elongation
----
+#### By Percent Rope Elongation
 
-#### Terms:
+##### Terms:
 
 |Variable|Description|Unit|
 |-----|-----|-----|
-|m | mass| *pounds*|
-|l<sub>fall</sub> | Falling distance | *in*|
-|l<sub>rope</sub> | length of rope | *ft*|
-|F<sub>rope</sub> | force required to acheive manufacturer's stated rope stretch | *lbf*|
-|y | elongation | *percentage*|
-|F<sub>shock</sub> | Force due to shockload| *lbf*|
+|$m$ | mass| *pounds*|
+|$l_{fall}$ | Falling distance | *in*|
+|$l_{rope}$ | length of rope | *ft*|
+|$F_{rope}$ | force required to acheive manufacturer's stated rope stretch | *lbf*|
+|$y$ | elongation | *percentage*|
+|$F_{shock}$ | Force due to shockload| *lbf*|
 
-#### Equations
+##### Equations
 
-$$ a =  \frac {0.005 \, y \, l&#x005F;{rope} }{F&#x005F;{rope}} $$
+$$ a =  \frac {0.005 \, y \, l_{rope} }{F_{rope}} $$
 
 $$ b = -2 \, a \, m $$
 
-$$ c = \frac {-m \, l&#x005F;{fall}}{12} $$
+$$ c = \frac {-m \, l_{fall}}{12} $$
 
-$$ F&#x005F;{shock} = \left( 
+$$ F_{shock} = \left( 
     \frac
     { -b + \sqrt 
         {b^2 - (4 \, a \, c)}}
     {4 \, a}
 \right) $$
 
-___
-
-Sources
----
+#### Sources
 
 [Understanding shock Loads](http://tdt.usitt.org/GetPDF.aspx?PDF=49-2shockloads). Delbert Hall. TD&T, Vol. 49 No. 2 (spring 2013)

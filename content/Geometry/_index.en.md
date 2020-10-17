@@ -1,8 +1,8 @@
 ---
 title: Geometry
-weight: 5
+#weight: 5
 #pre: "<b></b>"
 chapter: false
 ---
 
-Here you will find calculations related to geometry.
+{{% children  description="true" %}}

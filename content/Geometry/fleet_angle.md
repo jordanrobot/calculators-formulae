@@ -1,36 +1,28 @@
 ---
-layout: default
 title: Fleet Angle
-nav_order:
+description: Calculates the allowable offset distance and distance from a pulley or drum with respect to an included angle.
+#weight:
 ---
-[gimmick: math]()
 
-Fleet Angle
-===
-
-Notes & Use
----
+#### Notes & Use
 
 Calculates the allowable offset distance and distance from a pulley or drum with respect to an included angle.
 
 This calculator will calculate for all three variables by way of a user-selected drop down menu.
 
-Figure
----
+#### Figure
 
 ![](../image/fleet_angle.jpg)
 
-Terms
----
+#### Terms
 
-d = Offset distance, units of *length*
+$d$ = Offset distance, units of *length*
 
-D = Distance from pulley or drum, units of *length*
+$D$ = Distance from pulley or drum, units of *length*
 
-&phi; = included angle, *degrees*
+$\phi$ = included angle, *degrees*
 
-Equations
----
+#### Equations
 
 $$ \phi = atan \, \left( \frac {d}{D} \right) $$
 

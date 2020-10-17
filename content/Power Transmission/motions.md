@@ -1,5 +1,6 @@
 ---
 title: Motions
+description: Calculates for various dynamic/motion values, and the resultant forces.
 #weight:
 ---
 
@@ -38,67 +39,72 @@ The "Power" dropdown calculates an estimated power requirement based on the moti
 
 #### Terms
 
-D = Total distance of move, *ft*
+$D$ = Total distance of move, *ft*
 
-D<sub>a</sub> = Accel distance, *ft*
+$D_{a}$ = Accel distance, *ft*
 
-D<sub>d</sub> = Decel distance, *ft*
+$D_{d}$ = Decel distance, *ft*
 
-T = Total time of move, *sec*
+$T$ = Total time of move, *second*
 
-T<sub>a</sub> = Accel time, *sec*
+$T_{a}$ = Accel time, *second*
 
-T<sub>d</sub> = Decel time, *sec*
+$T_{d}$ = Decel time, *second*
 
-a = Acceleration, *ft / sec<sup>2</sup>*
+$a$ = Acceleration, *ft / sec<sup>2</sup>*
 
-d = Deceleration, *ft / sec<sup>2</sup>*
+$d$ = Deceleration, *ft / sec<sup>2</sup>*
 
-v = Max speed, *ft per sec*
+$v$ = Max speed, *ft per sec*
 
 #### Motion Equations:
 
 Accel Distance:
-$$ D&#x005F;{a} = \frac {a \, T&#x005F;{a}^2} {2} $$
+$$ D_{a} = \frac {a \, T_{a}^2} {2} $$
 
 Decel Distance:
-$$ D&#x005F;{d} = \frac {d \, T&#x005F;{d}^2} {2} $$
+$$ D_{d} = \frac {d \, T_{d}^2} {2} $$
 
 Total Time of move:
 $$ T = \left( \frac {v}{a} \right) +
        \left( \frac {v}{d} \right) +
        \left( 
-        \frac { D - \left( D&#x005F;{a} + D&#x005F;{d} \right)}
+        \frac { D - \left( D_{a} + D_{d} \right)}
               {v}
        \right)
 $$
 
 #### Forces Equations
 
-m = Mass of moved load, *lbm*
-F<sub>a</sub> = Force required to accelerate, *lbf*
-F<sub>d</sub> = Force required to decelerate, *lbf*
+$m$ = Mass of moved load, *lbm*
+
+$F_{a}$ = Force required to accelerate, *lbf*
+
+$F_{d}$ = Force required to decelerate, *lbf*
+
 &mu; = Coefficient of friction, *unitless*
 
 For Horizonal & CWA movement:
-$$ F&#x005F;{a} = \frac {m}{32.2} \, a + (m \mu) $$
-$$ F&#x005F;{d} = \frac {m}{32.2} \, d + (m \mu) $$
+$$ F_{a} = \frac {m}{32.2} \, a + (m \mu) $$
+$$ F_{d} = \frac {m}{32.2} \, d + (m \mu) $$
 
 Lift on acceleration:
-$$ F&#x005F;{a} = m + \left( \frac {m}{32.2} \, a \right) + (m \mu)$$
-$$ F&#x005F;{d} = m - \left( \frac {m}{32.2} \, d \right) + (m \mu)$$
+$$ F_{a} = m + \left( \frac {m}{32.2} \, a \right) + (m \mu)$$
+$$ F_{d} = m - \left( \frac {m}{32.2} \, d \right) + (m \mu)$$
 
 Lower on Acceleration:
-$$ F&#x005F;{a} = m - \left( \frac {m}{32.2} \, a \right) + (m \mu)$$
-$$ F&#x005F;{d} = m + \left( \frac {m}{32.2} \, d \right) + (m \mu)$$
+$$ F_{a} = m - \left( \frac {m}{32.2} \, a \right) + (m \mu)$$
+$$ F_{d} = m + \left( \frac {m}{32.2} \, d \right) + (m \mu)$$
 
 #### Power Equations
 
-P<sub>hp</sub> = power, *hp*
-P<sub>kW</sub> = power, *kW*
+$P_{hp}$ = power, *hp*
+
+$P_{kW}$ = power, *kW*
+
 &eta; = System efficiency, *percentage*
 
-$$ F = \left|F&#x005F;{a}\right| \vee \left|F&#x005F;{d}\right| $$
-$$ P&#x005F;{hp} = \frac {F \, v}{550 \eta} $$
+$$ F = \left|F_{a}\right| \vee \left|F_{d}\right| $$
+$$ P_{hp} = \frac {F \, v}{550 \eta} $$
 
-$$ P&#x005F;{kW} = 0.7457 P&#x005F;{hp} $$
+$$ P_{kW} = 0.7457 P_{hp} $$

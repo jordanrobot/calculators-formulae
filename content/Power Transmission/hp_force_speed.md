@@ -1,5 +1,6 @@
 ---
 title: HP Force/Speed
+description: Calculates the relationship between HP, Force, and Velocity.
 #weight:
 ---
 

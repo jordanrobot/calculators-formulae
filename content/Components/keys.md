@@ -23,47 +23,56 @@ The calculator selects a standard key size (height &times; width) based on the k
 
 #### Terms
 
-d = Shaft diameter, *inches*
-h = key height, *inches*
-w = key width, *inches*
-l = key length, *inches*
-S = Safety factor, *unitless*
-F<sub>y</sub> = Material yield strength, *psi*
-T = torque thru shaft, *in &dot; lbf*
+$d$ = Shaft diameter, *inches*
 
-A<sub>s</sub> = Shear area, *square inches*
-A<sub>c</sub> = Compression area, *square inches*
+$h$ = key height, *inches*
 
-&sigma;<sub>s</sub> = Actual shear stress, *psi*
-&sigma;<sub>c</sub> = Actual compression stress, *psi*
+$w$ = key width, *inches*
 
-&tau;<sub>s</sub> = Allowable shear stress, *psi*
-&tau;<sub>c</sub> = Actual compression stress, *psi*
+$l$ = key length, *inches*
+
+$S$ = Safety factor, *unitless*
+
+$F_{y}$ = Material yield strength, *psi*
+
+$T$ = torque thru shaft, *in &dot; lbf*
+
+$A_{s}$ = Shear area, *square inches*
+
+$A_{c}$ = Compression area, *square inches*
+
+$&sigma;_{s}$ = Actual shear stress, *psi*
+
+$&sigma;_{c}$ = Actual compression stress, *psi*
+
+$&tau;_{s}$ = Allowable shear stress, *psi*
+
+$&tau;_{c}$ = Actual compression stress, *psi*
 
 #### Equations
 
 Shear area:
-$$ A&#x005F;{s} = w \times l $$
+$$ A_{s} = w \times l $$
 
 Compression area:
-$$ A&#x005F;{c} = \frac {h \times l} {2} $$
+$$ A_{c} = \frac {h \times l} {2} $$
 
 Actual shear stress:
-$$ \sigma&#x005F;{s} = \frac {2 T}{d \, l \, w} $$
+$$ \sigma_{s} = \frac {2 T}{d \, l \, w} $$
 
 Actual compressions stress:
-$$ \sigma&#x005F;{c} = \frac {4 T}{d \, l \, h} $$
+$$ \sigma_{c} = \frac {4 T}{d \, l \, h} $$
 
 Allowable shear stress:
-$$ \tau&#x005F;{s} = \frac {0.5 F&#x005F;{y}}{S} $$
+$$ \tau_{s} = \frac {0.5 F_{y}}{S} $$
 
 Allowable compression stress:
-$$ \tau&#x005F;{c} = \frac {F&#x005F;{y}}{S} $$
+$$ \tau_{c} = \frac {F_{y}}{S} $$
 
 
 ##### Pass/Fail Test
 
-&sigma;<sub>s</sub> and &sigma;<sub>c</sub> are compared to the respective allowable values:
+$&sigma;_{s}$ and $&sigma;_{c}$ are compared to the respective allowable values:
 
 * Pass = actual < allowable
 * Fail = actual &ge; allowable
@@ -72,7 +81,7 @@ $$ \tau&#x005F;{c} = \frac {F&#x005F;{y}}{S} $$
 
 The design values provided by the drop-down material box are culled from various sources. A full table of those values is as follows:
 
-|Material|F<sub>y</sub>|
+|Material|$F_{y}$|
 |------|------|
 ||*psi*|
 |C1018 Steel|53,000|

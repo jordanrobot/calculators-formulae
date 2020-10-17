@@ -1,5 +1,6 @@
 ---
 title: Yoyo Winch Calcs
+description: Calculates typlical yoyo winch linepull forces and speeds given various machine properties.
 #weight:
 ---
 

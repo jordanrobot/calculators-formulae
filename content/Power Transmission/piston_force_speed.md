@@ -1,5 +1,6 @@
 ---
 title: Piston Force & Speed
+description: Calculations for hydraulic and pneumatic piston forces and speeds. 
 nav_order:
 ---
 
@@ -16,7 +17,7 @@ The second part of this calculator calculates values related to the piston speed
 * SCFM (*Standard Cubic Feet per Minute*) units are assumed to apply to pneumatic systems,
 * GPM (*Gallons per Minute*) units are assumed to apply to hydraulic systems,
 * Time calculations are assumed to have instantaneous acceleration and decelleration,
-* CV<sub>req</sub> calculations are assumed to be of a non-critical pressure drop.
+* $CV_{req}$ calculations are assumed to be of a non-critical pressure drop.
 
 #### Figure
 
@@ -25,84 +26,85 @@ The second part of this calculator calculates values related to the piston speed
 
 #### Terms
 
-P = pressure applied to cylinder, *pounds per square inch*
+$P$ = pressure applied to cylinder, *pounds per square inch*
 
-D<sub>bore</sub> = Bore diameter, *inches*
+$D_{bore}$ = Bore diameter, *inches*
 
-d<sub>rod</sub> = Rod diameter, *inches*
+$d_{rod}$ = Rod diameter, *inches*
 
-L<sub>stroke</sub> = linear movement of piston, *inches*
+$L_{stroke}$ = linear movement of piston, *inches*
 
-F<sub>push</sub> = force exerted by piston rod during extension, *lbs force*
+$F_{push}$ = force exerted by piston rod during extension, *lbs force*
 
-F<sub>Pull</sub> = force exterted by piston rod during retraction, *lbs force*
+$F_{Pull}$ = force exterted by piston rod during retraction, *lbs force*
 
-f<sub>gpm</sub> = flow supplied to the cylinder, *Gallons per Minute*
+$f_{gpm}$ = flow supplied to the cylinder, *Gallons per Minute*
 
-f<sub>scfm</sub> = flow supplied to the cylinder, *Standard Cubic Feet per Minute*
+$f_{scfm}$ = flow supplied to the cylinder, *Standard Cubic Feet per Minute*
 
-p<sub>drop</sub> = the expected loss of PSI throughout the system, *psi*
+$p_{drop}$ = the expected loss of PSI throughout the system, *psi*
 
-T = Temperature of gas, *&deg;F*
+$T$ = Temperature of gas, *&deg;F*
 
-p<sub>atm</sub> = Atmospheric pressure, *psi*
+$p_{atm}$ = Atmospheric pressure, *psi*
 
 #### Equations
 
 Calculate the areas of the bore and rod, for use in later calculations...
-$$ A = \pi \left( \frac{D&#x005F;{bore}}{2} \right) ^2 $$
-$$ a = \pi \left( \frac{d&#x005F;{rod}}{2} \right) ^2 $$
+$$ A = \pi \left( \frac{D_{bore}}{2} \right) ^2 $$
+$$ a = \pi \left( \frac{d_{rod}}{2} \right) ^2 $$
 
 Calculate the forces exerted by the cylinder...
-$$ F&#x005F;{push} = PA  $$
-$$ F&#x005F;{pull} = P(A - a)  $$
+$$ F_{push} = PA  $$
+$$ F_{pull} = P(A - a)  $$
 
 Calculate the required flow coeficient only if the flow unit is set to *SCFM*...
-$$ CV&#x005F;{required} = 
+$$ CV_{required} = 
     \frac
-        {60 f&#x005F;{scfm}}
+        {60 f_{scfm}}
         {1360}
     \sqrt 
         { \frac
-            { G&#x005F;{air} (T + 460)}
-            { p&#x005F;{drop} (P + p&#x005F;{atm} - p&#x005F;{drop})}
+            { G_{air} (T + 460)}
+            { p_{drop} (P + p_{atm} - p_{drop})}
         }
 $$
 
-* Where:
-* *G<sub>air</sub>* = Specific gravity of fluid (Air = 1)
+Where:
+
+* $G_{air}$ = Specific gravity of fluid (Air = 1)
 
 Calculate the displacement (*inches<sup>3</sup>*)...
-$$ V&#x005F;{push} = L&#x005F;{stroke} A $$
-$$ V&#x005F;{pull} = L&#x005F;{stroke} (A-a) $$
+$$ V_{push} = L_{stroke} A $$
+$$ V_{pull} = L_{stroke} (A-a) $$
 
 Calculate the piston speed (*inches per second*)...
 
 * where flow units = *SCFM*
-$$ v&#x005F;{push} = 
-    \frac {f&#x005F;{scfm}} {A} \times
+$$ v_{push} = 
+    \frac {f_{scfm}} {A} \times
     \frac {1728}{60} 
 $$
-$$ v&#x005F;{pull} =
-    \frac {f&#x005F;{scfm}} {(A-a)} \times
+$$ v_{pull} =
+    \frac {f_{scfm}} {(A-a)} \times
     \frac {1728}{60} 
 $$
 
 * where flow units = *GPM*
-$$ v&#x005F;{push} =
-    \frac {f&#x005F;{gpm}} {A} \times
+$$ v_{push} =
+    \frac {f_{gpm}} {A} \times
     \frac {231}{60}
 $$
-$$ v&#x005F;{pull} =
-    \frac {f&#x005F;{gpm}} {(A-a)}
+$$ v_{pull} =
+    \frac {f_{gpm}} {(A-a)}
     \frac {231}{60}
 $$
 
 Calculate the time for piston extension (*seconds*)...
-$$ t&#x005F;{push} = \frac {L&#x005F;{stroke}}{v&#x005F;{push}} $$
+$$ t_{push} = \frac {L_{stroke}}{v_{push}} $$
 
 Calculate the time for piston retraction (*seconds*)...
-$$ t&#x005F;{pull} = \frac {L&#x005F;{stroke}}{v&#x005F;{pull}} $$
+$$ t_{pull} = \frac {L_{stroke}}{v_{pull}} $$
 
 #### Sources
 

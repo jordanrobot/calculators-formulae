@@ -1,5 +1,6 @@
 ---
 title: Winch Linepull
+description: Calculates typlical helical drum winch linepull forces and speeds given various machine properties.
 #weight:
 ---
 

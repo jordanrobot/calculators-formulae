@@ -38,19 +38,19 @@ This calculator does *not* address any issues beyond P, V, and PV calculations, 
 
 ##### Radial Terms
 
-L = load on bearing, *pounds force*
+$L$ = load on bearing, *pounds force*
 
-n = Shaft speed, *rotations per minute*
+$n$ = Shaft speed, *rotations per minute*
 
-d = Diameter of shaft (ID of bearing), *inches*
+$d$ = Diameter of shaft (ID of bearing), *inches*
 
-w = Bearing width, *inches*
+$w$ = Bearing width, *inches*
 
-P = Pressure on bearing, *psi*
+$P$ = Pressure on bearing, *psi*
 
-V = velocity of bearing surface, *feet per minute*
+$V$ = velocity of bearing surface, *feet per minute*
 
-PV = Pressure &times; Velocity
+$PV$ = Pressure &times; Velocity
 
 ##### Radial Equations
 
@@ -69,20 +69,19 @@ $$
 
 ##### Thrust Terms
 
-L = load on bearing, *pounds force*
+$L$ = load on bearing, *pounds force*
 
-n = Rotation speed, *rotations per minute*
+$n$ = Rotation speed, *rotations per minute*
 
-d = Inner diameter of bearing's surface area, *inches*
+$d$ = Inner diameter of bearing's surface area, *inches*
 
-D = Outer diameter of bearing's surface area, *inches*
+$D$ = Outer diameter of bearing's surface area, *inches*
 
-P = Pressure on bearing, *psi*
+$P$ = Pressure on bearing, *psi*
 
-V = velocity of bearing surface, *feet per minute*
+$V$ = velocity of bearing surface, *feet per minute*
 
-PV = Pressure &times; Velocity
-
+$PV$ = Pressure &times; Velocity
 
 ##### Thrust Equation
 
@@ -97,7 +96,7 @@ $$
 
 ##### Pass/Fail Test
 
-P<sub>actual</sub>, V<sub>actual</sub>, and PV<sub>actual</sub> are compared to the respective allowable values:
+P_{actual}$, V_{actual}$, and PV_{actual}$ are compared to the respective allowable values:
 
 * Pass = actual < allowable
 * Fail = actual &ge; allowable
