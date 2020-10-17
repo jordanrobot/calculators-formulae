@@ -1,3 +1,47 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+#baseURL = "http://scenic-shop.com/formulae"
+baseURL = "http://localhost:1313/formulae/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Scenic-Shop Calculators Formulae"
+theme = "learn"
+themesdir = "themes/"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[params]
+  editURL = "https://github.com/jordanrobot/formulae/edit/master/content/"
+  description = "Documentation for the Scenic-Shop Calculators"
+  author = "Matthew D. Jordan"
+  showVisitedLinks = false
+  disableBreadcrumb = true
+  disableNextPrev = true
+  disableMermaid = true
+  customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
+  titleSeparator = "::"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[Languages]
+[Languages.en]
+title = "Documentation for the Scenic-Shop Calculators"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/jordanrobot/formulae"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Calculators"
+identifier = "hugodoc"
+url = "https://scenic-shop.com/Calculators/"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
+url = "/credits"
+weight = 30
