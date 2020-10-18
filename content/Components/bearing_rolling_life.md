@@ -1,5 +1,6 @@
 ---
 title: Bearing Rolling Life
+description: Calculates design values related to lifetime for rolling element bearings.
 weight: 3
 ---
 

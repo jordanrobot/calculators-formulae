@@ -1,5 +1,6 @@
 ---
 title: Plain Bearing PV
+description: Calculates design values (velocity, force, and combined) of plain bearings.
 weight: 2
 ---
 
@@ -96,7 +97,7 @@ $$
 
 ##### Pass/Fail Test
 
-P_{actual}$, V_{actual}$, and PV_{actual}$ are compared to the respective allowable values:
+$P_{actual}$, $V_{actual}$, and $PV_{actual}$ are compared to the respective allowable values:
 
 * Pass = actual < allowable
 * Fail = actual &ge; allowable

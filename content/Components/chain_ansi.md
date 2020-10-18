@@ -1,5 +1,6 @@
 ---
 title: ANSI Chain Calcs
+description: A collection of lookups and calculations for ANSI standard roller chains.
 weight: 1
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: Pulley Pressures
+description: Calculates various aspects of pulleys, such as D:d ratios, tread, and bore pressures.
 weight: 6
 ---
 
@@ -13,6 +14,7 @@ Calculates:
     - Wrap angle is taken into account, see image
     - A round cable is assumed
     - A properly-sized round groove is assumed, the nominal groove diameter is approximately:
+
 $$ D_{groove} = 1.06 \times D_{cable} $$
     - Note that the tread pressure as depicted in the figure below is not technically accurate, but more illustrative in nature.  The tread pressure is actually calculated as the force acting on the cross-sectional midplane of the sheave such that:
 $$ \frac {Force} {Diameter_{cable} \times Diameter_{tread}} $$

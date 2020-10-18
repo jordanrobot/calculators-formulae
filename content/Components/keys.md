@@ -1,5 +1,6 @@
 ---
 title: Parallel Shaft Keys
+description: Calculates for the selection and design of parallel keys in shafts.
 weight: 4
 ---
 
