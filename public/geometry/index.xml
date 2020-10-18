@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Geometry on Documentation for the Scenic-Shop Calculators</title>
+    <link>http://localhost:1313/formulae/geometry/</link>
+    <description>Recent content in Geometry on Documentation for the Scenic-Shop Calculators</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="http://localhost:1313/formulae/geometry/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>D:d Ratio</title>
+      <link>http://localhost:1313/formulae/geometry/d-to-d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/geometry/d-to-d/</guid>
+      <description>gimmick: math
+D:d Ratio Notes &amp;amp; Use Calculates:
+ D:d ratios for given pulley and cable sizes Adjusted capacity of wire rope due to D:d bend  Note: that at a D:d ratio of 10 and less, permanent distortions of the rope will occur. (This is a general rule of thumb, different construction ropes will vary.)    Figure Terms Dtread= Tread diameter, inches
+Dcable= Cable diameter, inches
+Equations Pitch Diameter, inches: $$ D_{pitch} = D_{tread} + D_{cable}$$</description>
+    </item>
+    
+    <item>
+      <title>Fleet Angle</title>
+      <link>http://localhost:1313/formulae/geometry/fleet_angle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/geometry/fleet_angle/</guid>
+      <description>gimmick: math
+Fleet Angle Notes &amp;amp; Use Calculates the allowable offset distance and distance from a pulley or drum with respect to an included angle.
+This calculator will calculate for all three variables by way of a user-selected drop down menu.
+Figure Terms d = Offset distance, units of length
+D = Distance from pulley or drum, units of length
+φ = included angle, degrees
+Equations $$ \phi = atan , \left( \frac {d}{D} \right) $$</description>
+    </item>
+    
+    <item>
+      <title>Frustum</title>
+      <link>http://localhost:1313/formulae/geometry/frustum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/geometry/frustum/</guid>
+      <description>gimmick: math
+Conical Frustum Flattener Notes &amp;amp; Use This calculator calculates the flat pattern for a right-angle conical frustum.
+Figure Terms r&#39; = Top radius of conical frustum, units of length
+R = Bottom radius of conical frustum, units of length
+h = height of conical frustum, units of length
+φ = included angle of conical frustum, radians
+s&#39; = Flattened small radius, units of length
+S = Flattened large radius, units of length</description>
+    </item>
+    
+  </channel>
+</rss>

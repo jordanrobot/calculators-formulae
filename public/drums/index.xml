@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drums on Documentation for the Scenic-Shop Calculators</title>
+    <link>http://localhost:1313/formulae/drums/</link>
+    <description>Recent content in Drums on Documentation for the Scenic-Shop Calculators</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="http://localhost:1313/formulae/drums/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Helical Drum Cable Payout</title>
+      <link>http://localhost:1313/formulae/drums/drums_helicalpayout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/drums/drums_helicalpayout/</guid>
+      <description>Notes &amp;amp; Use Calculates the payout (in feet), and total number of wraps for a grooved helical drum.
+ The drum must be of constant pitch diameter This calculator will calculate for both bitter-end rigging and operating-loop rigging.  Figure Terms l = Groove lead, inches
+Dpitch= Pitch diameter of drum, inches
+w = Width of drum&amp;rsquo;s grooved surface, inches
+nlines= number of lines:
+ count each operating cable loop as 1 line.</description>
+    </item>
+    
+    <item>
+      <title>Max Unbraced Drum Length</title>
+      <link>http://localhost:1313/formulae/drums/drums_unbraced_length/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/drums/drums_unbraced_length/</guid>
+      <description>Notes &amp;amp; Use Calculates the maximum distance between internal braces in a helical cable drum.
+ The drum must be of constant pitch diameter  Figure Terms ν = Poisson&amp;rsquo;s ratio for drum material
+   Material Poisson&amp;rsquo;s ratio     Steel, mild 0.303   Steel, high carbon 0.295   Steel, Cold-rolled 0.287   Aluminum 0.334   Aluminum, 6061-T6 0.35    E = Modulus of elasticity for drum material, psi</description>
+    </item>
+    
+    <item>
+      <title>Yoyo Drum Cable Payout</title>
+      <link>http://localhost:1313/formulae/drums/drums_yoyopayout/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/drums/drums_yoyopayout/</guid>
+      <description>Notes &amp;amp; Use Calculates the payout (in feet), and total number of wraps for a yoyo drum, with the following considerations&amp;hellip;
+ the yoyo drum must have a single line per groove, the calculation is a simplified method that divides the area of the usuable wraps by the cable diameter. This method is not exact, but is more than adequate for the purposes of stage machines; it estimates the area of the cable pack, and divides that quantity by the cable diameter.</description>
+    </item>
+    
+  </channel>
+</rss>

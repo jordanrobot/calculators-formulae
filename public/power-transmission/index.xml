@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CompPower Transmission on Documentation for the Scenic-Shop Calculators</title>
+    <link>http://localhost:1313/formulae/power-transmission/</link>
+    <description>Recent content in CompPower Transmission on Documentation for the Scenic-Shop Calculators</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language><atom:link href="http://localhost:1313/formulae/power-transmission/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HP Force/Speed</title>
+      <link>http://localhost:1313/formulae/power-transmission/hp_force_speed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/power-transmission/hp_force_speed/</guid>
+      <description>Notes &amp;amp; Use Calculates the relationship between HP, Force, and Velocity; this is for use when determining rough order of magnitude power transmissions.
+This calculator will calculate for either velocity or force at any given time by specifiying the variable to solve for.
+Terms P = Motor power, horsepower
+η = efficiency, percent
+v = velocity of line, feet per second
+F = force of line, pounds force
+Equations $$ v = \frac {550P}{F} \eta $$</description>
+    </item>
+    
+    <item>
+      <title>Motions</title>
+      <link>http://localhost:1313/formulae/power-transmission/motions/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/power-transmission/motions/</guid>
+      <description>Notes &amp;amp; Use Calculates for various motion-related values:
+ time max velocity acceleration deceleration distance  Motion profiles are assumed to be trapezoidal in nature, with constant accel, decel, and max speed.
+The following calculation order is observed&amp;hellip;
+ Changing any value (except Time) will recalculate the Time value The Accel &amp;amp; Decel values (f/s2) will remain constant unless the Accel/Decel Distance values are edited. The Top Speed value will remain constant unless the Time value is edited.</description>
+    </item>
+    
+    <item>
+      <title>Piston Force &amp; Speed</title>
+      <link>http://localhost:1313/formulae/power-transmission/piston_force_speed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/power-transmission/piston_force_speed/</guid>
+      <description>gimmick: math
+Piston Force &amp;amp; Speed Notes &amp;amp; Use The first section calculates the push force and pull force of a pneumatic/hydraulic piston, with the folowing considerations&amp;hellip;
+ The cylinder bore and rod have circular cross-sections, The rod Ø must not exceed the bore Ø The pressure on the opposing face of the piston cup (not the pressuring side) is assumed to be at standard atmospheric pressure  The second part of this calculator calculates values related to the piston speed and displacement, where:</description>
+    </item>
+    
+    <item>
+      <title>Winch Linepull</title>
+      <link>http://localhost:1313/formulae/power-transmission/winch_linepull/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/power-transmission/winch_linepull/</guid>
+      <description>gimmick: math
+Linepull Winch Calcs Notes &amp;amp; Usage Calculates a simple winch arragement in which there exists:
+ A motor A reduction stage A drum or sprocket stage with constant diameter  This calculator will recalculate if any of the values are changed. There are three sets of calculations performed depending on the values that are changed. Each set of calculations are based on the formulas provided in the Calculation section.</description>
+    </item>
+    
+    <item>
+      <title>Yoyo Winch Calcs</title>
+      <link>http://localhost:1313/formulae/power-transmission/winch_yoyo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/formulae/power-transmission/winch_yoyo/</guid>
+      <description>gimmick: math
+Yoyo Winch Calcs Notes &amp;amp; Usage Calculates a simple winch arragement in which there exists:
+ A motor A reduction stage A yoyo (or pilewind) drum.  The behavior of this system is such that at any time during the machine&amp;rsquo;s operation, the linepull velocity and force are changing depending on the diameter of the drum. E.g. as the motor drives at a constant speed, the drum pulls in cable.</description>
+    </item>
+    
+  </channel>
+</rss>

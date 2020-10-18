@@ -1,16 +1,17 @@
-#baseURL = "http://scenic-shop.com/formulae"
-baseURL = "http://localhost:1313/formulae/"
+baseURL = "http://scenic-shop.com/calculators-formulae"
+#baseURL = "http://localhost:1313/calculators-formulae/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
 
 title = "Scenic-Shop Calculators Formulae"
+description = "Documentation for the Scenic-Shop Calculators web-page."
 theme = "learn"
 themesdir = "themes/"
 metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/jordanrobot/formulae/edit/master/content/"
+  editURL = "https://github.com/jordanrobot/calculators-formulae/edit/master/content/"
   description = "Documentation for the Scenic-Shop Calculators"
   author = "Matthew D. Jordan"
   showVisitedLinks = false
@@ -19,6 +20,7 @@ defaultContentLanguageInSubdir= true
   disableMermaid = true
   customMermaidURL = "https://unpkg.com/mermaid@8.8.0/dist/mermaid.min.js"
   titleSeparator = "::"
+  themeVariant = "red"
 
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
@@ -32,7 +34,7 @@ languageName = "English"
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
 identifier = "ds"
-url = "https://github.com/jordanrobot/formulae"
+url = "https://github.com/jordanrobot/calculators-formulae"
 weight = 11
 
 [[Languages.en.menu.shortcuts]]
@@ -42,6 +44,6 @@ url = "https://scenic-shop.com/Calculators/"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
-name = "<i class='fas fa-fw fa-bullhorn'></i> Credits"
-url = "/credits"
+name = "<i class='fas fa-fw fa-bullhorn'></i> Blog"
+url = "https://scenic-shop.com/wp/"
 weight = 30

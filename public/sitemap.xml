@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:1313/formulae/components/chain_ansi/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/drums/drums_helicalpayout/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/drums/drums_unbraced_length/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/components/bearing_plainpv/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/components/bearing_rolling_life/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/drums/drums_yoyopayout/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/components/keys/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/components/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/power-transmission/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/forces/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/geometry/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/drums/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/components/pulleys/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/forces/capstan_holding_force/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/geometry/d-to-d/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/geometry/fleet_angle/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/navigation/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/geometry/frustum/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/power-transmission/hp_force_speed/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/power-transmission/motions/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/power-transmission/piston_force_speed/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/forces/resultant_force/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/forces/shockload/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/power-transmission/winch_linepull/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/formulae/power-transmission/winch_yoyo/</loc>
+  </url>
+  
+</urlset>
