@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=~/public_html/calculators-formulae
-    - rsync -a ~/dev/calculators-formulae/public/ $DEPLOYPATH
+    - export CALCFORMULASPATH=~/public_html/calculators-formulae
+    - rsync -a public/ $CALCFORMULASPATH
