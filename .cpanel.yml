@@ -1,4 +1,5 @@
 ---
 deployment:
   tasks:
-    - rsync -a --delete public/ ~/public_html/calculators-formulae
+    - rsync -a --delete public/ ~/public_html/formulae
+    
