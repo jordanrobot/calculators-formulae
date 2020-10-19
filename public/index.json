@@ -109,7 +109,7 @@
 	"title": "Forces",
 	"tags": [],
 	"description": "",
-	"content": "\r\rCapstan Holding Forces\r\rCalculates the relationship between a hold-force and load-force of a flexible line wrapped around a cylinder, such as a capstan or drum.\n\rResultant Force\r\rNotes \u0026amp; Use Calculates the maximum force on a pulley or pin where: A rope or flexible member with forces acting on both ends, turns around said pulley or pin. Figure Terms $L$ = Load, pounds force (Newtons) $R$ = Resultant force, pounds force (Newtons) $phi$ = included angle of wrap, degrees. Where: φ ≥ 0° φ \u0026lt; 180° Equations $$ R = 2 L \\, cos \\, \\left( \\frac {\\phi}{2} \\right) $$\n\rShockload Forces\r\rCalculates the force subjected to a body during a shockload event.\n\r"
+	"content": "\r\rCapstan Holding Forces\r\rCalculates the relationship between a hold-force and load-force of a flexible line wrapped around a cylinder, such as a capstan or drum.\n\rResultant Force\r\rCalculates the maximum force on a pulley or pin.\n\rShockload Forces\r\rCalculates the force subjected to a body during a shockload event.\n\r"
 },
 {
 	"uri": "http://scenic-shop.com/calculators-formulae/geometry/frustum/",
@@ -157,7 +157,7 @@
 	"uri": "http://scenic-shop.com/calculators-formulae/forces/resultant_force/",
 	"title": "Resultant Force",
 	"tags": [],
-	"description": "",
+	"description": "Calculates the maximum force on a pulley or pin.",
 	"content": "Notes \u0026amp; Use Calculates the maximum force on a pulley or pin where:\n A rope or flexible member with forces acting on both ends, turns around said pulley or pin.  Figure Terms $L$ = Load, pounds force (Newtons)\n$R$ = Resultant force, pounds force (Newtons)\n$phi$ = included angle of wrap, degrees.\nWhere:\n φ ≥ 0° φ \u0026lt; 180°  Equations $$ R = 2 L \\, cos \\, \\left( \\frac {\\phi}{2} \\right) $$\n"
 },
 {

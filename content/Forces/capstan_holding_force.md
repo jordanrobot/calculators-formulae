@@ -1,7 +1,7 @@
 ---
 title: Capstan Holding Forces
 description: Calculates the relationship between a hold-force and load-force of a flexible line wrapped around a cylinder, such as a capstan or drum.
-weight: 
+#weight: 
 ---
 
 #### Notes & Use

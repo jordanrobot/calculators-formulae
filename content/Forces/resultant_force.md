@@ -1,6 +1,6 @@
 ---
 title: Resultant Force
-desciption: Calculates the maximum force on a pulley or pin.
+description: Calculates the maximum force on a pulley or pin.
 #weight:
 ---
 
