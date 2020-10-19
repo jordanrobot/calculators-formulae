@@ -20,9 +20,11 @@ $$ L = P \times p $$
 
 where:
 
-* $L$ = chain length, *inches*
-* $P$ = chain length, *pitches*
-* $p$ = chain pitch distance, determined from ANSI values
+$L$ = chain length, *inches*
+
+$P$ = chain length, *pitches*
+
+$p$ = chain pitch distance, determined from ANSI values
 
 ##### Weight
 
@@ -95,11 +97,11 @@ $$
 
 Calculates properties for a sprocket of user selected size and tooth number...
 
-$$ D_{p} = p \times sin \, t_{no} $$
+$$ D_{p} = p \times sin \\, t_{no} $$
 $$ D_{o} = 
     p \times
     \left(
-        0.6 + \frac {1}{tan \, t_{no}}
+        0.6 + \frac {1}{tan \\, t_{no}}
     \right)
 $$
 $$ t_{width} = 0.93 c_{width} - 0.006 $$

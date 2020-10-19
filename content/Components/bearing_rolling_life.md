@@ -79,29 +79,29 @@ Safety factor:
 $$ S_{0} = \frac { C_{0} } {L} $$
 
 Revolutions:
-$$ r = \left( \frac {C}{ L \, a_{1}} \right)^x
-    \, C_{x} \, a_{2} \, a_{3}
+$$ r = \left( \frac {C}{ L \\, a_{1}} \right)^x
+    \\, C_{x} \\, a_{2} \\, a_{3}
 $$
 
 Hours:
-$$ h = \frac {r}{60 \, n} $$
+$$ h = \frac {r}{60 \\, n} $$
 
 
 ##### Calculate for "Bearing Rating":
 
 Basic static load:
-$$ C_{0} = S_{0} \, L $$
+$$ C_{0} = S_{0} \\, L $$
 
 Revolutions:
-$$ r = 60 \, h \, n $$
+$$ r = 60 \\, h \\, n $$
 
 Basic dynamic load:
 
-$$ C = L \, a_{1} 
+$$ C = L \\, a_{1} 
             \left(
                 \frac
                     {r}
-                    {C_{x} \, a_{2} \, a_{3}}
+                    {C_{x} \\, a_{2} \\, a_{3}}
             \right)^ \frac{1}{x}
 $$
 
@@ -111,14 +111,14 @@ Safety factor:
 $$ S_{0} = \frac { C_{0} } {L} $$
 
 Revolutions:
-$$ r = 60 \,h \, n $$
+$$ r = 60 \\, h \\, n $$
 
 Load:
 $$ L = \frac {C}
-    { a_{1} \,
+    { a_{1} \\,
         \left( \frac
             {r}
-            {C_{x} \, a_{2} \, a_{3}}
+            {C_{x} \\, a_{2} \\, a_{3}}
         \right)^ \frac{1}{x}
 }
 $$
@@ -129,12 +129,12 @@ Safety factor:
 $$ S_{0} = \frac { C_{0} } {L} $$
 
 Revolutions:
-$$ r = \left( \frac {C} {L \, a_{1}}\right)^x \,
-    C_{x} \, a_{2} \, a_{3}
+$$ r = \left( \frac {C} {L \\, a_{1}}\right)^x \\,
+    C_{x} \\, a_{2} \\, a_{3}
 $$
 
 RPM:
-$$ n = \frac{r}{60 \, h} $$
+$$ n = \frac{r}{60 \\, h} $$
 
 
 #### Sources

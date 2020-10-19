@@ -12,13 +12,13 @@ This calculator will calculate for either velocity or force at any given time by
 
 #### Terms
 
-P = Motor power, *horsepower*
+$P$ = Motor power, *horsepower*
 
-&eta; = efficiency, *percent*
+$\eta$ = efficiency, *percent*
 
-v   = velocity of line, *feet per second*
+$v$   = velocity of line, *feet per second*
 
-F   = force of line, *pounds force*
+$F$   = force of line, *pounds force*
 
 #### Equations
 

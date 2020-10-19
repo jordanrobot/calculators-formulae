@@ -25,7 +25,7 @@ $$ \frac {Force} {Diameter_{cable} \times Diameter_{tread}} $$
 
 #### Figure
 
-![](../image/pulleys.jpg)
+![](/image/pulleys.jpg)
 
 #### Terms
 
@@ -39,7 +39,7 @@ $D_{bore}$ = Bore diameter, *inches*
 
 $w$ = width at bore, *inches*
 
-$&phi;$ = angle of wrap around the sheave, *degrees*.
+$\phi$ = angle of wrap around the sheave, *degrees*.
 
 Where:
 
@@ -56,7 +56,7 @@ $$ D:d = \frac {D_{pitch}} {D_{cable}} $$
 
 Calculate the resultant force on the sheave, *lbf*:
 
-$$ F_{resultant} = 2 L \, cos \, \left( \frac {180 - \phi}{2} \right) $$
+$$ F_{resultant} = 2 L \\, cos \\, \left( \frac {180 - \phi}{2} \right) $$
 
 Tread pressure, *psi*:
 
@@ -64,7 +64,7 @@ $$ P_{tread} = \frac {F_{resultant}}{D_{tread} D_{cable}} $$
 
 Bore pressure, *psi*:
 
-$$ P_{bore} = \frac {F_{resultant}}{w \, D_{bore}} $$
+$$ P_{bore} = \frac {F_{resultant}}{w \\, D_{bore}} $$
 
 #### Sources
 

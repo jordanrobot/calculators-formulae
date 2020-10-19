@@ -1,42 +1,34 @@
 ---
-layout: default
 title: Capstan Holding Forces
-nav_order: 
+description: Calculates the relationship between a hold-force and load-force of a flexible line wrapped around a cylinder, such as a capstan or drum.
+weight: 
 ---
-[gimmick: math]()
 
-Capstan Holding Forces
-===
-
-Notes & Use
----
+#### Notes & Use
 
 Calculates the relationship between a hold-force and load-force of a flexible line wrapped around a cylinder, such as a capstan or drum.
 
 This calculator will calculate for either the hold-force or load-force by way of a user-selected drop down menu.
 
-Figure
----
+#### Figure
 
-![](../image/capstan_hold.jpg)
+![](/image/capstan_hold.jpg)
 
-Terms
----
+#### Terms
 
-H = hold, *pounds force* (*Newtons*)
+$H$ = hold, *pounds force* (*Newtons*)
 
-w = number of wraps
+$w$ = number of wraps
 
-&Phi; = angle of wrap, *radians*
+$\Phi$ = angle of wrap, *radians*
 
-&mu;  = coeficient of friction
+$\mu$  = coeficient of friction
 
-L = Load, *pounds force* (*Newtons*)
+$L$ = Load, *pounds force* (*Newtons*)
 
-*e* = constant, approximately 2.71828...
+$e$ = constant, approximately 2.71828...
 
-Equations
----
+#### Equations
 
 Translate the number of wraps into equivalent radians:
 
@@ -46,6 +38,6 @@ Calculate the load force from the holding force:
 
 $$ L = H e ^ {\mu \phi} $$
 
-Sources
----
+#### Sources
+
 [Eytelwein's formula](https://en.wikipedia.org/wiki/Capstan_equation)

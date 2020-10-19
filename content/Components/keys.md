@@ -20,7 +20,7 @@ The calculator selects a standard key size (height &times; width) based on the k
 
 #### Figure
 
-![](../image/keys.png)
+![](/image/keys.png)
 
 #### Terms
 
@@ -42,13 +42,13 @@ $A_{s}$ = Shear area, *square inches*
 
 $A_{c}$ = Compression area, *square inches*
 
-$&sigma;_{s}$ = Actual shear stress, *psi*
+$\sigma_{s}$ = Actual shear stress, *psi*
 
-$&sigma;_{c}$ = Actual compression stress, *psi*
+$\sigma_{c}$ = Actual compression stress, *psi*
 
-$&tau;_{s}$ = Allowable shear stress, *psi*
+$\tau_{s}$ = Allowable shear stress, *psi*
 
-$&tau;_{c}$ = Actual compression stress, *psi*
+$\tau_{c}$ = Actual compression stress, *psi*
 
 #### Equations
 
@@ -59,10 +59,10 @@ Compression area:
 $$ A_{c} = \frac {h \times l} {2} $$
 
 Actual shear stress:
-$$ \sigma_{s} = \frac {2 T}{d \, l \, w} $$
+$$ \sigma_{s} = \frac {2 T}{d \\, l \\, w} $$
 
 Actual compressions stress:
-$$ \sigma_{c} = \frac {4 T}{d \, l \, h} $$
+$$ \sigma_{c} = \frac {4 T}{d \\, l \\, h} $$
 
 Allowable shear stress:
 $$ \tau_{s} = \frac {0.5 F_{y}}{S} $$
@@ -73,7 +73,7 @@ $$ \tau_{c} = \frac {F_{y}}{S} $$
 
 ##### Pass/Fail Test
 
-$&sigma;_{s}$ and $&sigma;_{c}$ are compared to the respective allowable values:
+$\sigma_{s}$ and $\sigma_{c}$ are compared to the respective allowable values:
 
 * Pass = actual < allowable
 * Fail = actual &ge; allowable

@@ -1,41 +1,33 @@
 ---
-layout: default
 title: Resultant Force
-nav_order:
+desciption: Calculates the maximum force on a pulley or pin.
+#weight:
 ---
-[gimmick: math]()
 
-Resultant Force
-===
-
-Notes & Use
----
+#### Notes & Use
 
 Calculates the maximum force on a pulley or pin where:
 
 * A rope or flexible member with forces acting on both ends,
 * turns around said pulley or pin.
 
-Figure
----
+#### Figure
 
-![](../image/resultant_force.jpg)
+![](/image/resultant_force.jpg)
 
-Terms
----
+#### Terms
 
-L = Load, *pounds force* (*Newtons*)
+$L$ = Load, *pounds force* (*Newtons*)
 
-R  = Resultant force, *pounds force* (*Newtons*)
+$R$  = Resultant force, *pounds force* (*Newtons*)
 
-&phi; = included angle of wrap, *degrees*.
+$phi$ = included angle of wrap, *degrees*.
 
 Where:
 
 * &phi; &ge; 0&deg;
 * &phi; < 180&deg;
 
-Equations
----
+#### Equations
 
-$$ R = 2 L \, cos \, \left( \frac {\phi}{2} \right) $$
+$$ R = 2 L \\, cos \\, \left( \frac {\phi}{2} \right) $$

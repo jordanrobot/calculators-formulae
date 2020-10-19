@@ -12,7 +12,7 @@ This calculator will calculate for all three variables by way of a user-selected
 
 #### Figure
 
-![](../image/fleet_angle.jpg)
+![](/image/fleet_angle.jpg)
 
 #### Terms
 
@@ -24,8 +24,8 @@ $\phi$ = included angle, *degrees*
 
 #### Equations
 
-$$ \phi = atan \, \left( \frac {d}{D} \right) $$
+$$ \phi = atan \\, \left( \frac {d}{D} \right) $$
 
-$$ d = D \, tan \, \phi $$
+$$ d = D \\, tan \\, \phi $$
 
-$$ D = \frac {d}{tan \, \phi} $$
+$$ D = \frac {d}{tan \\, \phi} $$

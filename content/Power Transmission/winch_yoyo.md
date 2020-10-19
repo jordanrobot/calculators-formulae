@@ -30,19 +30,19 @@ This calculator will recalculate if any of the values are changed.  There are tw
 
 #### Terms
 
-P = Motor power, *horsepower*
+$P$ = Motor power, *horsepower*
 
-n = Motor Speed, *rotations per minute*
+$n$ = Motor Speed, *rotations per minute*
 
-&eta; = efficiency, *percent*
+$\eta$ = efficiency, *percent*
 
-r   = ratio
+$r$   = ratio
 
-D = Diameter of the drum, *inches*
+$D$ = Diameter of the drum, *inches*
 
-v = velocity of the line, *feet per second*
+$v$ = velocity of the line, *feet per second*
 
-F = force on the line, *pounds force*
+$F$ = force on the line, *pounds force*
 
 #### Equations
 

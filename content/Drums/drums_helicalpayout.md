@@ -1,5 +1,6 @@
 ---
 title: Helical Drum Cable Payout
+description: Calculates the payout (in feet), and total number of wraps for a grooved helical drum.
 weight: 1
 ---
 
@@ -12,7 +13,7 @@ Calculates the payout (in feet), and total number of wraps for a grooved helical
 
 #### Figure
 
-![](../image/drum_helical_payout.jpg)
+![](/image/drum_helical_payout.jpg)
 
 #### Terms
 
