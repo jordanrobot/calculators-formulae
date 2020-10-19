@@ -1,4 +1,4 @@
-baseURL = "http://scenic-shop.com/calculators-formulae"
+baseURL = "http://scenic-shop.com/calculators-formulae/"
 #baseURL = "http://localhost:1313/calculators-formulae/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
@@ -11,7 +11,7 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-  editURL = "https://github.com/jordanrobot/calculators-formulae/edit/master/content/"
+#  editURL = "https://github.com/jordanrobot/calculators-formulae/edit/master/content/"
   description = "Documentation for the Scenic-Shop Calculators"
   author = "Matthew D. Jordan"
   showVisitedLinks = false
