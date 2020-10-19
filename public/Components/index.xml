@@ -17,7 +17,10 @@ All ANSI reference values are from manufacturers&#39; catalogues.
 Calculations Length The chains&#39; length conversion between inches and pitches is calculated by the folling formula:
 $$ L = P \times p $$
 where:
- $L$ = chain length, inches $P$ = chain length, pitches $p$ = chain pitch distance, determined from ANSI values  Weight The weight of the chain is calculated as&amp;hellip;</description>
+$L$ = chain length, inches
+$P$ = chain length, pitches
+$p$ = chain pitch distance, determined from ANSI values
+Weight The weight of the chain is calculated as&amp;hellip;</description>
     </item>
     
     <item>

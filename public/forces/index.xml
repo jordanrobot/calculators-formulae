@@ -12,13 +12,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://scenic-shop.com/calculators-formulae/forces/capstan_holding_force/</guid>
-      <description>gimmick: math
-Capstan Holding Forces Notes &amp;amp; Use Calculates the relationship between a hold-force and load-force of a flexible line wrapped around a cylinder, such as a capstan or drum.
+      <description>Notes &amp;amp; Use Calculates the relationship between a hold-force and load-force of a flexible line wrapped around a cylinder, such as a capstan or drum.
 This calculator will calculate for either the hold-force or load-force by way of a user-selected drop down menu.
-Figure Terms H = hold, pounds force (Newtons)
-w = number of wraps
-Φ = angle of wrap, radians
-μ = coeficient of friction</description>
+Figure Terms $H$ = hold, pounds force (Newtons)
+$w$ = number of wraps
+$\Phi$ = angle of wrap, radians
+$\mu$ = coeficient of friction
+$L$ = Load, pounds force (Newtons)</description>
     </item>
     
     <item>
@@ -27,13 +27,12 @@ w = number of wraps
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://scenic-shop.com/calculators-formulae/forces/resultant_force/</guid>
-      <description>gimmick: math
-Resultant Force Notes &amp;amp; Use Calculates the maximum force on a pulley or pin where:
- A rope or flexible member with forces acting on both ends, turns around said pulley or pin.  Figure Terms L = Load, pounds force (Newtons)
-R = Resultant force, pounds force (Newtons)
-φ = included angle of wrap, degrees.
+      <description>Notes &amp;amp; Use Calculates the maximum force on a pulley or pin where:
+ A rope or flexible member with forces acting on both ends, turns around said pulley or pin.  Figure Terms $L$ = Load, pounds force (Newtons)
+$R$ = Resultant force, pounds force (Newtons)
+$phi$ = included angle of wrap, degrees.
 Where:
- φ ≥ 0° φ &amp;lt; 180°  Equations $$ R = 2 L , cos , \left( \frac {\phi}{2} \right) $$</description>
+ φ ≥ 0° φ &amp;lt; 180°  Equations $$ R = 2 L \, cos \, \left( \frac {\phi}{2} \right) $$</description>
     </item>
     
     <item>
@@ -43,7 +42,7 @@ Where:
       
       <guid>http://scenic-shop.com/calculators-formulae/forces/shockload/</guid>
       <description>Notes &amp;amp; Use Calculates the force subjected to a body during a shockload event for the following cases:
- Distance fallen, by stopping distance Distance fallen, by wire rope type and diameter Distance fallen, by rope (percentage elongation)  By Distance  Terms:    Variable Description Unit     $m$ mass pounds   $l_{fall}$ Falling distance in   $d$ Stopping distance in   $F_{shock}$ Force due to shockload lbf    Equation $$ F_{shock} = m , \left( \frac {l_{fall}}{d} + 1 \right) $$</description>
+ Distance fallen, by stopping distance Distance fallen, by wire rope type and diameter Distance fallen, by rope (percentage elongation)  By Distance  Terms:    Variable Description Unit     $m$ mass pounds   $l_{fall}$ Falling distance in   $d$ Stopping distance in   $F_{shock}$ Force due to shockload lbf    Equation $$ F_{shock} = m \, \left( \frac {l_{fall}}{d} + 1 \right) $$</description>
     </item>
     
   </channel>

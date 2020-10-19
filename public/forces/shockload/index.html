@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="generator" content="Hugo 0.76.0" />
-    <meta name="description" content="Documentation for the Scenic-Shop Calculators">
+    <meta name="description" content="Calculates the force subjected to a body during a shockload event.">
 <meta name="author" content="Matthew D. Jordan">
 
     <link rel="icon" href="/calculators-formulae/images/favicon.png" type="image/png">
@@ -12,21 +12,21 @@
     <title>Shockload Forces :: Documentation for the Scenic-Shop Calculators</title>
 
     
-    <link href="/calculators-formulae/css/nucleus.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/fontawesome-all.min.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/hybrid.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/featherlight.min.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/perfect-scrollbar.min.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/auto-complete.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/atom-one-dark-reasonable.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/theme.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/hugo-theme.css?1603075449" rel="stylesheet">
+    <link href="/calculators-formulae/css/nucleus.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/fontawesome-all.min.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/hybrid.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/featherlight.min.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/perfect-scrollbar.min.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/auto-complete.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/atom-one-dark-reasonable.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/theme.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/hugo-theme.css?1603105568" rel="stylesheet">
     
-    <link href="/calculators-formulae/css/theme-blue.css?1603075449" rel="stylesheet">
+    <link href="/calculators-formulae/css/theme-blue.css?1603105568" rel="stylesheet">
     
     
 
-    <script src="/calculators-formulae/js/jquery-3.3.1.min.js?1603075449"></script>
+    <script src="/calculators-formulae/js/jquery-3.3.1.min.js?1603105568"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -91,14 +91,14 @@ MathJax.Hub.Config({
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/calculators-formulae/js/lunr.min.js?1603075449"></script>
-<script type="text/javascript" src="/calculators-formulae/js/auto-complete.js?1603075449"></script>
+<script type="text/javascript" src="/calculators-formulae/js/lunr.min.js?1603105568"></script>
+<script type="text/javascript" src="/calculators-formulae/js/auto-complete.js?1603105568"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/scenic-shop.com\/calculators-formulae";
     
 </script>
-<script type="text/javascript" src="/calculators-formulae/js/search.js?1603075449"></script>
+<script type="text/javascript" src="/calculators-formulae/js/search.js?1603105568"></script>
 
     
   </div>
@@ -824,7 +824,7 @@ MathJax.Hub.Config({
 </tbody>
 </table>
 <h5 id="equation">Equation</h5>
-<p>$$ F_{shock} = m , \left( \frac {l_{fall}}{d} + 1 \right) $$</p>
+<p>$$ F_{shock} = m \, \left( \frac {l_{fall}}{d} + 1 \right) $$</p>
 <h4 id="by-wire-rope">By Wire Rope</h4>
 <h5 id="terms-1">Terms:</h5>
 <table>
@@ -877,8 +877,8 @@ MathJax.Hub.Config({
 <p>$$ F_{shock} = \left(
 1 + \sqrt {
 1+ \frac
-{ 2 , l_{fall} , E , x , d_{rope}^2}
-{ 12 , m , l_{rope} }
+{ 2 \, l_{fall} \, E \, x \, d_{rope}^2}
+{ 12 \, m \, l_{rope} }
 }
 \right) $$</p>
 <h5 id="wire-rope-area-factors">Wire Rope Area Factors</h5>
@@ -968,14 +968,14 @@ MathJax.Hub.Config({
 </tbody>
 </table>
 <h5 id="equations-1">Equations</h5>
-<p>$$ a =  \frac {0.005 , y , l_{rope} }{F_{rope}} $$</p>
-<p>$$ b = -2 , a , m $$</p>
-<p>$$ c = \frac {-m , l_{fall}}{12} $$</p>
+<p>$$ a =  \frac {0.005 \, y \, l_{rope} }{F_{rope}} $$</p>
+<p>$$ b = -2 \, a \, m $$</p>
+<p>$$ c = \frac {-m \, l_{fall}}{12} $$</p>
 <p>$$ F_{shock} = \left(
 \frac
 { -b + \sqrt
-{b^2 - (4 , a , c)}}
-{4 , a}
+{b^2 - (4 \, a \, c)}}
+{4 \, a}
 \right) $$</p>
 <h4 id="sources">Sources</h4>
 <p><a href="http://tdt.usitt.org/GetPDF.aspx?PDF=49-2shockloads">Understanding shock Loads</a>. Delbert Hall. TD&amp;T, Vol. 49 No. 2 (spring 2013)</p>
@@ -1421,16 +1421,16 @@ MathJax.Hub.Config({
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/calculators-formulae/js/clipboard.min.js?1603075449"></script>
-    <script src="/calculators-formulae/js/perfect-scrollbar.min.js?1603075449"></script>
-    <script src="/calculators-formulae/js/perfect-scrollbar.jquery.min.js?1603075449"></script>
-    <script src="/calculators-formulae/js/jquery.sticky.js?1603075449"></script>
-    <script src="/calculators-formulae/js/featherlight.min.js?1603075449"></script>
-    <script src="/calculators-formulae/js/highlight.pack.js?1603075449"></script>
+    <script src="/calculators-formulae/js/clipboard.min.js?1603105568"></script>
+    <script src="/calculators-formulae/js/perfect-scrollbar.min.js?1603105568"></script>
+    <script src="/calculators-formulae/js/perfect-scrollbar.jquery.min.js?1603105568"></script>
+    <script src="/calculators-formulae/js/jquery.sticky.js?1603105568"></script>
+    <script src="/calculators-formulae/js/featherlight.min.js?1603105568"></script>
+    <script src="/calculators-formulae/js/highlight.pack.js?1603105568"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/calculators-formulae/js/modernizr.custom-3.6.0.js?1603075449"></script>
-    <script src="/calculators-formulae/js/learn.js?1603075449"></script>
-    <script src="/calculators-formulae/js/hugo-learn.js?1603075449"></script>
+    <script src="/calculators-formulae/js/modernizr.custom-3.6.0.js?1603105568"></script>
+    <script src="/calculators-formulae/js/learn.js?1603105568"></script>
+    <script src="/calculators-formulae/js/hugo-learn.js?1603105568"></script>
     
     
 

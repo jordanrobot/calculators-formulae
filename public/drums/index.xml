@@ -28,7 +28,7 @@ $n_{lines}$ = number of lines:
       <guid>http://scenic-shop.com/calculators-formulae/drums/drums_unbraced_length/</guid>
       <description>Notes &amp;amp; Use Calculates the maximum distance between internal braces in a helical cable drum.
  The drum must be of constant pitch diameter  Figure Terms ν = Poisson&amp;rsquo;s ratio for drum material
-   Material Poisson&amp;rsquo;s ratio     Steel, mild 0.303   Steel, high carbon 0.295   Steel, Cold-rolled 0.287   Aluminum 0.334   Aluminum, 6061-T6 0.35    E = Modulus of elasticity for drum material, psi</description>
+   Material Poisson&amp;rsquo;s ratio     Steel, mild 0.303   Steel, high carbon 0.295   Steel, Cold-rolled 0.287   Aluminum 0.334   Aluminum, 6061-T6 0.35    $E$ = Modulus of elasticity for drum material, psi</description>
     </item>
     
     <item>

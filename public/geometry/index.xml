@@ -29,7 +29,7 @@ This calculator will calculate for all three variables by way of a user-selected
 Figure Terms $d$ = Offset distance, units of length
 $D$ = Distance from pulley or drum, units of length
 $\phi$ = included angle, degrees
-Equations $$ \phi = atan , \left( \frac {d}{D} \right) $$</description>
+Equations $$ \phi = atan \, \left( \frac {d}{D} \right) $$</description>
     </item>
     
     <item>

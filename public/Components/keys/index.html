@@ -12,21 +12,21 @@
     <title>Parallel Shaft Keys :: Documentation for the Scenic-Shop Calculators</title>
 
     
-    <link href="/calculators-formulae/css/nucleus.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/fontawesome-all.min.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/hybrid.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/featherlight.min.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/perfect-scrollbar.min.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/auto-complete.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/atom-one-dark-reasonable.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/theme.css?1603075449" rel="stylesheet">
-    <link href="/calculators-formulae/css/hugo-theme.css?1603075449" rel="stylesheet">
+    <link href="/calculators-formulae/css/nucleus.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/fontawesome-all.min.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/hybrid.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/featherlight.min.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/perfect-scrollbar.min.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/auto-complete.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/atom-one-dark-reasonable.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/theme.css?1603105568" rel="stylesheet">
+    <link href="/calculators-formulae/css/hugo-theme.css?1603105568" rel="stylesheet">
     
-    <link href="/calculators-formulae/css/theme-blue.css?1603075449" rel="stylesheet">
+    <link href="/calculators-formulae/css/theme-blue.css?1603105568" rel="stylesheet">
     
     
 
-    <script src="/calculators-formulae/js/jquery-3.3.1.min.js?1603075449"></script>
+    <script src="/calculators-formulae/js/jquery-3.3.1.min.js?1603105568"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -91,14 +91,14 @@ MathJax.Hub.Config({
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/calculators-formulae/js/lunr.min.js?1603075449"></script>
-<script type="text/javascript" src="/calculators-formulae/js/auto-complete.js?1603075449"></script>
+<script type="text/javascript" src="/calculators-formulae/js/lunr.min.js?1603105568"></script>
+<script type="text/javascript" src="/calculators-formulae/js/auto-complete.js?1603105568"></script>
 <script type="text/javascript">
     
         var baseurl = "http:\/\/scenic-shop.com\/calculators-formulae";
     
 </script>
-<script type="text/javascript" src="/calculators-formulae/js/search.js?1603075449"></script>
+<script type="text/javascript" src="/calculators-formulae/js/search.js?1603105568"></script>
 
     
   </div>
@@ -794,7 +794,7 @@ MathJax.Hub.Config({
 <p>All key depths are assumed to be (0.5 * key height).</p>
 <p>The calculator selects a standard key size (height × width) based on the key shape selected, and the shaft size.  Note these key sizes per shaft diameter are per ANSI B17.1-1967 (R2003)</p>
 <h4 id="figure">Figure</h4>
-<p><img src="../image/keys.png" alt=""></p>
+<p><img src="/image/keys.png" alt=""></p>
 <h4 id="terms">Terms</h4>
 <p>$d$ = Shaft diameter, <em>inches</em></p>
 <p>$h$ = key height, <em>inches</em></p>
@@ -805,25 +805,25 @@ MathJax.Hub.Config({
 <p>$T$ = torque thru shaft, <em>in ˙ lbf</em></p>
 <p>$A_{s}$ = Shear area, *square inches*</p>
 <p>$A_{c}$ = Compression area, *square inches*</p>
-<p>$σ_{s}$ = Actual shear stress, <em>psi</em></p>
-<p>$σ_{c}$ = Actual compression stress, <em>psi</em></p>
-<p>$τ_{s}$ = Allowable shear stress, <em>psi</em></p>
-<p>$τ_{c}$ = Actual compression stress, <em>psi</em></p>
+<p>$\sigma_{s}$ = Actual shear stress, *psi*</p>
+<p>$\sigma_{c}$ = Actual compression stress, *psi*</p>
+<p>$\tau_{s}$ = Allowable shear stress, *psi*</p>
+<p>$\tau_{c}$ = Actual compression stress, *psi*</p>
 <h4 id="equations">Equations</h4>
 <p>Shear area:
 $$ A_{s} = w \times l $$</p>
 <p>Compression area:
 $$ A_{c} = \frac {h \times l} {2} $$</p>
 <p>Actual shear stress:
-$$ \sigma_{s} = \frac {2 T}{d , l , w} $$</p>
+$$ \sigma_{s} = \frac {2 T}{d \, l \, w} $$</p>
 <p>Actual compressions stress:
-$$ \sigma_{c} = \frac {4 T}{d , l , h} $$</p>
+$$ \sigma_{c} = \frac {4 T}{d \, l \, h} $$</p>
 <p>Allowable shear stress:
 $$ \tau_{s} = \frac {0.5 F_{y}}{S} $$</p>
 <p>Allowable compression stress:
 $$ \tau_{c} = \frac {F_{y}}{S} $$</p>
 <h5 id="passfail-test">Pass/Fail Test</h5>
-<p>$σ<em>{s}$ and $σ</em>{c}$ are compared to the respective allowable values:</p>
+<p>$\sigma_{s}$ and $\sigma_{c}$ are compared to the respective allowable values:</p>
 <ul>
 <li>Pass = actual &lt; allowable</li>
 <li>Fail = actual ≥ allowable</li>
@@ -1316,16 +1316,16 @@ $$ \tau_{c} = \frac {F_{y}}{S} $$</p>
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/calculators-formulae/js/clipboard.min.js?1603075449"></script>
-    <script src="/calculators-formulae/js/perfect-scrollbar.min.js?1603075449"></script>
-    <script src="/calculators-formulae/js/perfect-scrollbar.jquery.min.js?1603075449"></script>
-    <script src="/calculators-formulae/js/jquery.sticky.js?1603075449"></script>
-    <script src="/calculators-formulae/js/featherlight.min.js?1603075449"></script>
-    <script src="/calculators-formulae/js/highlight.pack.js?1603075449"></script>
+    <script src="/calculators-formulae/js/clipboard.min.js?1603105568"></script>
+    <script src="/calculators-formulae/js/perfect-scrollbar.min.js?1603105568"></script>
+    <script src="/calculators-formulae/js/perfect-scrollbar.jquery.min.js?1603105568"></script>
+    <script src="/calculators-formulae/js/jquery.sticky.js?1603105568"></script>
+    <script src="/calculators-formulae/js/featherlight.min.js?1603105568"></script>
+    <script src="/calculators-formulae/js/highlight.pack.js?1603105568"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/calculators-formulae/js/modernizr.custom-3.6.0.js?1603075449"></script>
-    <script src="/calculators-formulae/js/learn.js?1603075449"></script>
-    <script src="/calculators-formulae/js/hugo-learn.js?1603075449"></script>
+    <script src="/calculators-formulae/js/modernizr.custom-3.6.0.js?1603105568"></script>
+    <script src="/calculators-formulae/js/learn.js?1603105568"></script>
+    <script src="/calculators-formulae/js/hugo-learn.js?1603105568"></script>
     
     
 

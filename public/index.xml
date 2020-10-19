@@ -17,7 +17,10 @@ All ANSI reference values are from manufacturers&#39; catalogues.
 Calculations Length The chains&#39; length conversion between inches and pitches is calculated by the folling formula:
 $$ L = P \times p $$
 where:
- $L$ = chain length, inches $P$ = chain length, pitches $p$ = chain pitch distance, determined from ANSI values  Weight The weight of the chain is calculated as&amp;hellip;</description>
+$L$ = chain length, inches
+$P$ = chain length, pitches
+$p$ = chain pitch distance, determined from ANSI values
+Weight The weight of the chain is calculated as&amp;hellip;</description>
     </item>
     
     <item>
@@ -42,7 +45,7 @@ $n_{lines}$ = number of lines:
       <guid>http://scenic-shop.com/calculators-formulae/drums/drums_unbraced_length/</guid>
       <description>Notes &amp;amp; Use Calculates the maximum distance between internal braces in a helical cable drum.
  The drum must be of constant pitch diameter  Figure Terms ν = Poisson&amp;rsquo;s ratio for drum material
-   Material Poisson&amp;rsquo;s ratio     Steel, mild 0.303   Steel, high carbon 0.295   Steel, Cold-rolled 0.287   Aluminum 0.334   Aluminum, 6061-T6 0.35    E = Modulus of elasticity for drum material, psi</description>
+   Material Poisson&amp;rsquo;s ratio     Steel, mild 0.303   Steel, high carbon 0.295   Steel, Cold-rolled 0.287   Aluminum 0.334   Aluminum, 6061-T6 0.35    $E$ = Modulus of elasticity for drum material, psi</description>
     </item>
     
     <item>
@@ -101,13 +104,13 @@ $n_{lines}$ = number of lines:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://scenic-shop.com/calculators-formulae/forces/capstan_holding_force/</guid>
-      <description>gimmick: math
-Capstan Holding Forces Notes &amp;amp; Use Calculates the relationship between a hold-force and load-force of a flexible line wrapped around a cylinder, such as a capstan or drum.
+      <description>Notes &amp;amp; Use Calculates the relationship between a hold-force and load-force of a flexible line wrapped around a cylinder, such as a capstan or drum.
 This calculator will calculate for either the hold-force or load-force by way of a user-selected drop down menu.
-Figure Terms H = hold, pounds force (Newtons)
-w = number of wraps
-Φ = angle of wrap, radians
-μ = coeficient of friction</description>
+Figure Terms $H$ = hold, pounds force (Newtons)
+$w$ = number of wraps
+$\Phi$ = angle of wrap, radians
+$\mu$ = coeficient of friction
+$L$ = Load, pounds force (Newtons)</description>
     </item>
     
     <item>
@@ -133,18 +136,7 @@ This calculator will calculate for all three variables by way of a user-selected
 Figure Terms $d$ = Offset distance, units of length
 $D$ = Distance from pulley or drum, units of length
 $\phi$ = included angle, degrees
-Equations $$ \phi = atan , \left( \frac {d}{D} \right) $$</description>
-    </item>
-    
-    <item>
-      <title>Fleet Angle</title>
-      <link>http://scenic-shop.com/calculators-formulae/navigation/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://scenic-shop.com/calculators-formulae/navigation/</guid>
-      <description>Formulae List Calculator Index
-Formula Index
- ANSI Roller Chain Bearings: Plain Radial PV calculator Bearings: Roller Lifetime Capstan Holding Force D:d Ratio Drums: Helical Payout Drums: Yoyo Payout Drums: Max Unbraced Length Fleet Angle Frustum Flatten HP Force/Speed Linepull Winch Motions Parallel Keys Piston Force &amp;amp; Speed Pulley Calcs Resultant Force over a Pulley Shockload Force Yoyo Winch  gimmick:theme (inverse: false)</description>
+Equations $$ \phi = atan \, \left( \frac {d}{D} \right) $$</description>
     </item>
     
     <item>
@@ -171,10 +163,10 @@ $h&#39;$ = Slant height, units of length</description>
       <guid>http://scenic-shop.com/calculators-formulae/power-transmission/hp_force_speed/</guid>
       <description>Notes &amp;amp; Use Calculates the relationship between HP, Force, and Velocity; this is for use when determining rough order of magnitude power transmissions.
 This calculator will calculate for either velocity or force at any given time by specifiying the variable to solve for.
-Terms P = Motor power, horsepower
-η = efficiency, percent
-v = velocity of line, feet per second
-F = force of line, pounds force
+Terms $P$ = Motor power, horsepower
+$\eta$ = efficiency, percent
+$v$ = velocity of line, feet per second
+$F$ = force of line, pounds force
 Equations Velocity $$ v = \frac {550P}{F} \eta $$</description>
     </item>
     
@@ -206,13 +198,12 @@ The following calculation order is observed&amp;hellip;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://scenic-shop.com/calculators-formulae/forces/resultant_force/</guid>
-      <description>gimmick: math
-Resultant Force Notes &amp;amp; Use Calculates the maximum force on a pulley or pin where:
- A rope or flexible member with forces acting on both ends, turns around said pulley or pin.  Figure Terms L = Load, pounds force (Newtons)
-R = Resultant force, pounds force (Newtons)
-φ = included angle of wrap, degrees.
+      <description>Notes &amp;amp; Use Calculates the maximum force on a pulley or pin where:
+ A rope or flexible member with forces acting on both ends, turns around said pulley or pin.  Figure Terms $L$ = Load, pounds force (Newtons)
+$R$ = Resultant force, pounds force (Newtons)
+$phi$ = included angle of wrap, degrees.
 Where:
- φ ≥ 0° φ &amp;lt; 180°  Equations $$ R = 2 L , cos , \left( \frac {\phi}{2} \right) $$</description>
+ φ ≥ 0° φ &amp;lt; 180°  Equations $$ R = 2 L \, cos \, \left( \frac {\phi}{2} \right) $$</description>
     </item>
     
     <item>
@@ -222,7 +213,7 @@ Where:
       
       <guid>http://scenic-shop.com/calculators-formulae/forces/shockload/</guid>
       <description>Notes &amp;amp; Use Calculates the force subjected to a body during a shockload event for the following cases:
- Distance fallen, by stopping distance Distance fallen, by wire rope type and diameter Distance fallen, by rope (percentage elongation)  By Distance  Terms:    Variable Description Unit     $m$ mass pounds   $l_{fall}$ Falling distance in   $d$ Stopping distance in   $F_{shock}$ Force due to shockload lbf    Equation $$ F_{shock} = m , \left( \frac {l_{fall}}{d} + 1 \right) $$</description>
+ Distance fallen, by stopping distance Distance fallen, by wire rope type and diameter Distance fallen, by rope (percentage elongation)  By Distance  Terms:    Variable Description Unit     $m$ mass pounds   $l_{fall}$ Falling distance in   $d$ Stopping distance in   $F_{shock}$ Force due to shockload lbf    Equation $$ F_{shock} = m \, \left( \frac {l_{fall}}{d} + 1 \right) $$</description>
     </item>
     
     <item>
