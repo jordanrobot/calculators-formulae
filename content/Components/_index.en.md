@@ -1,8 +1,7 @@
 ---
 title: Components
 #weight: 5
-#pre: "<b></b>"
-chapter: false
+chapter: true
 ---
 
 {{% children  description="true" %}}

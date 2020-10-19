@@ -94,7 +94,7 @@
 	"uri": "http://scenic-shop.com/calculators-formulae/drums/",
 	"title": "Drums",
 	"tags": [],
-	"description": "",
+	"description": "Calculations for drums...",
 	"content": "\r\rHelical Drum Cable Payout\r\rNotes \u0026amp; Use Calculates the payout (in feet), and total number of wraps for a grooved helical drum. The drum must be of constant pitch diameter This calculator will calculate for both bitter-end rigging and operating-loop rigging. Figure Terms $l$ = Groove lead, inches $D_{pitch}$ = Pitch diameter of drum, *inches* $w$ = Width of drum\u0026rsquo;s grooved surface, inches $n_{lines}$ = number of lines: count each operating cable loop as 1 line.\n\rMax Unbraced Drum Length\r\rNotes \u0026amp; Use Calculates the maximum distance between internal braces in a helical cable drum. The drum must be of constant pitch diameter Figure Terms ν = Poisson\u0026rsquo;s ratio for drum material Material Poisson\u0026rsquo;s ratio Steel, mild 0.303 Steel, high carbon 0.295 Steel, Cold-rolled 0.287 Aluminum 0.334 Aluminum, 6061-T6 0.35 E = Modulus of elasticity for drum material, psi\n\rYoyo Drum Cable Payout\r\rNotes \u0026amp; Use Calculates the payout (in feet), and total number of wraps for a yoyo drum, with the following considerations\u0026hellip; the yoyo drum must have a single line per groove, the calculation is a simplified method that divides the area of the usuable wraps by the cable diameter. This method is not exact, but is more than adequate for the purposes of stage machines; it estimates the area of the cable pack, and divides that quantity by the cable diameter.\n\r"
 },
 {
