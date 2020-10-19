@@ -7,24 +7,26 @@
     <meta name="description" content="Documentation for the Scenic-Shop Calculators">
 <meta name="author" content="Matthew D. Jordan">
 
-    <link rel="icon" href="/formulae/images/favicon.png" type="image/png">
+    <link rel="icon" href="/calculators-formulae/images/favicon.png" type="image/png">
 
     <title>Resultant Force :: Documentation for the Scenic-Shop Calculators</title>
 
     
-    <link href="/formulae/css/nucleus.css?1602905981" rel="stylesheet">
-    <link href="/formulae/css/fontawesome-all.min.css?1602905981" rel="stylesheet">
-    <link href="/formulae/css/hybrid.css?1602905981" rel="stylesheet">
-    <link href="/formulae/css/featherlight.min.css?1602905981" rel="stylesheet">
-    <link href="/formulae/css/perfect-scrollbar.min.css?1602905981" rel="stylesheet">
-    <link href="/formulae/css/auto-complete.css?1602905981" rel="stylesheet">
-    <link href="/formulae/css/atom-one-dark-reasonable.css?1602905981" rel="stylesheet">
-    <link href="/formulae/css/theme.css?1602905981" rel="stylesheet">
-    <link href="/formulae/css/hugo-theme.css?1602905981" rel="stylesheet">
+    <link href="/calculators-formulae/css/nucleus.css?1603066491" rel="stylesheet">
+    <link href="/calculators-formulae/css/fontawesome-all.min.css?1603066491" rel="stylesheet">
+    <link href="/calculators-formulae/css/hybrid.css?1603066491" rel="stylesheet">
+    <link href="/calculators-formulae/css/featherlight.min.css?1603066491" rel="stylesheet">
+    <link href="/calculators-formulae/css/perfect-scrollbar.min.css?1603066491" rel="stylesheet">
+    <link href="/calculators-formulae/css/auto-complete.css?1603066491" rel="stylesheet">
+    <link href="/calculators-formulae/css/atom-one-dark-reasonable.css?1603066491" rel="stylesheet">
+    <link href="/calculators-formulae/css/theme.css?1603066491" rel="stylesheet">
+    <link href="/calculators-formulae/css/hugo-theme.css?1603066491" rel="stylesheet">
+    
+    <link href="/calculators-formulae/css/theme-red.css?1603066491" rel="stylesheet">
     
     
 
-    <script src="/formulae/js/jquery-3.3.1.min.js?1602905981"></script>
+    <script src="/calculators-formulae/js/jquery-3.3.1.min.js?1603066491"></script>
 
     <style>
       :root #header + #content > #left > #rlblock_left{
@@ -33,18 +35,35 @@
       
     </style>
     
-<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[','\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+</script>
+
+
 
 
   </head>
-  <body class="" data-url="/formulae/forces/resultant_force/">
+  <body class="" data-url="/calculators-formulae/forces/resultant_force/">
     <nav id="sidebar" class="">
 
 
 
   <div id="header-wrapper">
     <div id="header">
-      <a id="logo" href="http://localhost:1313/formulae/">
+      <a id="logo" href="http://scenic-shop.com/calculators-formulae">
   <svg id="grav-logo" style="width:100%; height:100%;" viewBox="0 0 504 140" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
     <path d="M235.832,71.564l-7.98,-0.001c-1.213,0.001 -2.197,0.987 -2.197,2.204l0,15.327l-0.158,0.132c-4.696,3.962 -10.634,6.14 -16.719,6.14c-14.356,0 -26.034,-11.68 -26.034,-26.037c0,-14.358 11.678,-26.035 26.034,-26.035c5.582,0 10.919,1.767 15.437,5.113c0.877,0.649 2.093,0.56 2.866,-0.211l5.69,-5.69c0.444,-0.442 0.675,-1.055 0.639,-1.681c-0.034,-0.627 -0.336,-1.206 -0.828,-1.597c-6.76,-5.363 -15.214,-8.314 -23.805,-8.314c-21.18,0 -38.414,17.233 -38.414,38.415c0,21.183 17.234,38.415 38.414,38.415c10.937,0 21.397,-4.705 28.698,-12.914c0.358,-0.403 0.556,-0.921 0.556,-1.46l0,-19.603c0,-1.217 -0.985,-2.203 -2.2,-2.203"
       style="fill:#000;fill-rule:nonzero;"></path>
@@ -72,14 +91,14 @@
     <span data-search-clear=""><i class="fas fa-times"></i></span>
 </div>
 
-<script type="text/javascript" src="/formulae/js/lunr.min.js?1602905981"></script>
-<script type="text/javascript" src="/formulae/js/auto-complete.js?1602905981"></script>
+<script type="text/javascript" src="/calculators-formulae/js/lunr.min.js?1603066491"></script>
+<script type="text/javascript" src="/calculators-formulae/js/auto-complete.js?1603066491"></script>
 <script type="text/javascript">
     
-        var baseurl = "http:\/\/localhost:1313\/formulae\/";
+        var baseurl = "http:\/\/scenic-shop.com\/calculators-formulae";
     
 </script>
-<script type="text/javascript" src="/formulae/js/search.js?1602905981"></script>
+<script type="text/javascript" src="/calculators-formulae/js/search.js?1603066491"></script>
 
     
   </div>
@@ -97,12 +116,12 @@
  
   
     
-    <li data-nav-id="/formulae/components/" title="Components" class="dd-item 
+    <li data-nav-id="/calculators-formulae/components/" title="Components" class="dd-item 
         
         
         
         ">
-      <a href="/formulae/components/">
+      <a href="/calculators-formulae/components/">
           Components
           
       </a>
@@ -124,8 +143,8 @@
  
   
     
-      <li data-nav-id="/formulae/components/chain_ansi/" title="ANSI Chain Calcs" class="dd-item ">
-        <a href="/formulae/components/chain_ansi/">
+      <li data-nav-id="/calculators-formulae/components/chain_ansi/" title="ANSI Chain Calcs" class="dd-item ">
+        <a href="/calculators-formulae/components/chain_ansi/">
         ANSI Chain Calcs
         
         </a>
@@ -145,8 +164,8 @@
  
   
     
-      <li data-nav-id="/formulae/components/bearing_plainpv/" title="Plain Bearing PV" class="dd-item ">
-        <a href="/formulae/components/bearing_plainpv/">
+      <li data-nav-id="/calculators-formulae/components/bearing_plainpv/" title="Plain Bearing PV" class="dd-item ">
+        <a href="/calculators-formulae/components/bearing_plainpv/">
         Plain Bearing PV
         
         </a>
@@ -166,8 +185,8 @@
  
   
     
-      <li data-nav-id="/formulae/components/bearing_rolling_life/" title="Bearing Rolling Life" class="dd-item ">
-        <a href="/formulae/components/bearing_rolling_life/">
+      <li data-nav-id="/calculators-formulae/components/bearing_rolling_life/" title="Bearing Rolling Life" class="dd-item ">
+        <a href="/calculators-formulae/components/bearing_rolling_life/">
         Bearing Rolling Life
         
         </a>
@@ -187,8 +206,8 @@
  
   
     
-      <li data-nav-id="/formulae/components/keys/" title="Parallel Shaft Keys" class="dd-item ">
-        <a href="/formulae/components/keys/">
+      <li data-nav-id="/calculators-formulae/components/keys/" title="Parallel Shaft Keys" class="dd-item ">
+        <a href="/calculators-formulae/components/keys/">
         Parallel Shaft Keys
         
         </a>
@@ -208,8 +227,8 @@
  
   
     
-      <li data-nav-id="/formulae/components/pulleys/" title="Pulley Pressures" class="dd-item ">
-        <a href="/formulae/components/pulleys/">
+      <li data-nav-id="/calculators-formulae/components/pulleys/" title="Pulley Pressures" class="dd-item ">
+        <a href="/calculators-formulae/components/pulleys/">
         Pulley Pressures
         
         </a>
@@ -236,345 +255,12 @@
  
   
     
-    <li data-nav-id="/formulae/power-transmission/" title="CompPower Transmission" class="dd-item 
+    <li data-nav-id="/calculators-formulae/drums/" title="Drums" class="dd-item 
         
         
         
         ">
-      <a href="/formulae/power-transmission/">
-          CompPower Transmission
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/power-transmission/hp_force_speed/" title="HP Force/Speed" class="dd-item ">
-        <a href="/formulae/power-transmission/hp_force_speed/">
-        HP Force/Speed
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/power-transmission/motions/" title="Motions" class="dd-item ">
-        <a href="/formulae/power-transmission/motions/">
-        Motions
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/power-transmission/piston_force_speed/" title="Piston Force &amp; Speed" class="dd-item ">
-        <a href="/formulae/power-transmission/piston_force_speed/">
-        Piston Force &amp; Speed
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/power-transmission/winch_linepull/" title="Winch Linepull" class="dd-item ">
-        <a href="/formulae/power-transmission/winch_linepull/">
-        Winch Linepull
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/power-transmission/winch_yoyo/" title="Yoyo Winch Calcs" class="dd-item ">
-        <a href="/formulae/power-transmission/winch_yoyo/">
-        Yoyo Winch Calcs
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/formulae/forces/" title="Forces" class="dd-item 
-        parent
-        
-        
-        ">
-      <a href="/formulae/forces/">
-          Forces
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/forces/capstan_holding_force/" title="Capstan Holding Forces" class="dd-item ">
-        <a href="/formulae/forces/capstan_holding_force/">
-        Capstan Holding Forces
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/forces/resultant_force/" title="Resultant Force" class="dd-item active">
-        <a href="/formulae/forces/resultant_force/">
-        Resultant Force
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/forces/shockload/" title="Shockload" class="dd-item ">
-        <a href="/formulae/forces/shockload/">
-        Shockload
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/formulae/geometry/" title="Geometry" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/formulae/geometry/">
-          Geometry
-          
-      </a>
-      
-      
-        <ul>
-          
-          
-          
-          
-        
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/geometry/d-to-d/" title="D:d Ratio" class="dd-item ">
-        <a href="/formulae/geometry/d-to-d/">
-        D:d Ratio
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/geometry/fleet_angle/" title="Fleet Angle" class="dd-item ">
-        <a href="/formulae/geometry/fleet_angle/">
-        Fleet Angle
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-            
-            
-
-
-
-
- 
-  
-    
-      <li data-nav-id="/formulae/geometry/frustum/" title="Frustum" class="dd-item ">
-        <a href="/formulae/geometry/frustum/">
-        Frustum
-        
-        </a>
-    </li>
-     
-  
- 
-
-            
-          
-        
-        </ul>
-              
-    </li>
-  
- 
-
-          
-          
-
-
-
-
- 
-  
-    
-    <li data-nav-id="/formulae/drums/" title="Drums" class="dd-item 
-        
-        
-        
-        ">
-      <a href="/formulae/drums/">
+      <a href="/calculators-formulae/drums/">
           Drums
           
       </a>
@@ -596,8 +282,8 @@
  
   
     
-      <li data-nav-id="/formulae/drums/drums_helicalpayout/" title="Helical Drum Cable Payout" class="dd-item ">
-        <a href="/formulae/drums/drums_helicalpayout/">
+      <li data-nav-id="/calculators-formulae/drums/drums_helicalpayout/" title="Helical Drum Cable Payout" class="dd-item ">
+        <a href="/calculators-formulae/drums/drums_helicalpayout/">
         Helical Drum Cable Payout
         
         </a>
@@ -617,8 +303,8 @@
  
   
     
-      <li data-nav-id="/formulae/drums/drums_unbraced_length/" title="Max Unbraced Drum Length" class="dd-item ">
-        <a href="/formulae/drums/drums_unbraced_length/">
+      <li data-nav-id="/calculators-formulae/drums/drums_unbraced_length/" title="Max Unbraced Drum Length" class="dd-item ">
+        <a href="/calculators-formulae/drums/drums_unbraced_length/">
         Max Unbraced Drum Length
         
         </a>
@@ -638,9 +324,342 @@
  
   
     
-      <li data-nav-id="/formulae/drums/drums_yoyopayout/" title="Yoyo Drum Cable Payout" class="dd-item ">
-        <a href="/formulae/drums/drums_yoyopayout/">
+      <li data-nav-id="/calculators-formulae/drums/drums_yoyopayout/" title="Yoyo Drum Cable Payout" class="dd-item ">
+        <a href="/calculators-formulae/drums/drums_yoyopayout/">
         Yoyo Drum Cable Payout
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/calculators-formulae/forces/" title="Forces" class="dd-item 
+        parent
+        
+        
+        ">
+      <a href="/calculators-formulae/forces/">
+          Forces
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/forces/capstan_holding_force/" title="Capstan Holding Forces" class="dd-item ">
+        <a href="/calculators-formulae/forces/capstan_holding_force/">
+        Capstan Holding Forces
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/forces/resultant_force/" title="Resultant Force" class="dd-item active">
+        <a href="/calculators-formulae/forces/resultant_force/">
+        Resultant Force
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/forces/shockload/" title="Shockload Forces" class="dd-item ">
+        <a href="/calculators-formulae/forces/shockload/">
+        Shockload Forces
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/calculators-formulae/geometry/" title="Geometry" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/calculators-formulae/geometry/">
+          Geometry
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/geometry/d-to-d/" title="D:d Ratio" class="dd-item ">
+        <a href="/calculators-formulae/geometry/d-to-d/">
+        D:d Ratio
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/geometry/fleet_angle/" title="Fleet Angle" class="dd-item ">
+        <a href="/calculators-formulae/geometry/fleet_angle/">
+        Fleet Angle
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/geometry/frustum/" title="Frustum Flattener" class="dd-item ">
+        <a href="/calculators-formulae/geometry/frustum/">
+        Frustum Flattener
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+        
+        </ul>
+              
+    </li>
+  
+ 
+
+          
+          
+
+
+
+
+ 
+  
+    
+    <li data-nav-id="/calculators-formulae/power-transmission/" title="Power Transmission" class="dd-item 
+        
+        
+        
+        ">
+      <a href="/calculators-formulae/power-transmission/">
+          Power Transmission
+          
+      </a>
+      
+      
+        <ul>
+          
+          
+          
+          
+        
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/power-transmission/hp_force_speed/" title="HP Force/Speed" class="dd-item ">
+        <a href="/calculators-formulae/power-transmission/hp_force_speed/">
+        HP Force/Speed
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/power-transmission/motions/" title="Motions" class="dd-item ">
+        <a href="/calculators-formulae/power-transmission/motions/">
+        Motions
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/power-transmission/piston_force_speed/" title="Piston Force &amp; Speed" class="dd-item ">
+        <a href="/calculators-formulae/power-transmission/piston_force_speed/">
+        Piston Force &amp; Speed
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/power-transmission/winch_linepull/" title="Winch Linepull" class="dd-item ">
+        <a href="/calculators-formulae/power-transmission/winch_linepull/">
+        Winch Linepull
+        
+        </a>
+    </li>
+     
+  
+ 
+
+            
+          
+            
+            
+
+
+
+
+ 
+  
+    
+      <li data-nav-id="/calculators-formulae/power-transmission/winch_yoyo/" title="Yoyo Winch Calcs" class="dd-item ">
+        <a href="/calculators-formulae/power-transmission/winch_yoyo/">
+        Yoyo Winch Calcs
         
         </a>
     </li>
@@ -672,11 +691,11 @@
               </li>
           
               <li> 
-                  <a class="padding" href="https://github.com/jordanrobot/formulae"><i class='fab fa-fw fa-github'></i> GitHub repo</a>
+                  <a class="padding" href="https://github.com/jordanrobot/calculators-formulae"><i class='fab fa-fw fa-github'></i> GitHub repo</a>
               </li>
           
               <li> 
-                  <a class="padding" href="http://localhost:1313/formulae/credits"><i class='fas fa-fw fa-bullhorn'></i> Credits</a>
+                  <a class="padding" href="https://scenic-shop.com/wp/"><i class='fas fa-fw fa-bullhorn'></i> Blog</a>
               </li>
           
         </ul>
@@ -705,7 +724,7 @@
                   
                   
                   <div id="top-github-link">
-                    <a class="github-link" title='Edit this page' href="https://github.com/jordanrobot/formulae/edit/master/content/Forces/resultant_force.md" target="blank">
+                    <a class="github-link" title='Edit this page' href="https://github.com/jordanrobot/calculators-formulae/edit/master/content/Forces/resultant_force.md" target="blank">
                       <i class="fas fa-code-branch"></i>
                       <span id="top-github-link-text">Edit this page</span>
                     </a>
@@ -975,38 +994,6 @@
             
         
                     
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
-                        
-            
-            
-                
-                    
-                
-                
-
-                    
-                    
-                    
-
-                    
-            
-        
-                    
             
         
                     
@@ -1158,6 +1145,38 @@
                     
                     
 
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
+                    
+                        
+            
+            
+                
+                    
+                
+                
+
+                    
+                    
+                    
+
+                    
+            
+        
                     
                         
             
@@ -1225,16 +1244,16 @@
     <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
       <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
     </div>
-    <script src="/formulae/js/clipboard.min.js?1602905981"></script>
-    <script src="/formulae/js/perfect-scrollbar.min.js?1602905981"></script>
-    <script src="/formulae/js/perfect-scrollbar.jquery.min.js?1602905981"></script>
-    <script src="/formulae/js/jquery.sticky.js?1602905981"></script>
-    <script src="/formulae/js/featherlight.min.js?1602905981"></script>
-    <script src="/formulae/js/highlight.pack.js?1602905981"></script>
+    <script src="/calculators-formulae/js/clipboard.min.js?1603066491"></script>
+    <script src="/calculators-formulae/js/perfect-scrollbar.min.js?1603066491"></script>
+    <script src="/calculators-formulae/js/perfect-scrollbar.jquery.min.js?1603066491"></script>
+    <script src="/calculators-formulae/js/jquery.sticky.js?1603066491"></script>
+    <script src="/calculators-formulae/js/featherlight.min.js?1603066491"></script>
+    <script src="/calculators-formulae/js/highlight.pack.js?1603066491"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-    <script src="/formulae/js/modernizr.custom-3.6.0.js?1602905981"></script>
-    <script src="/formulae/js/learn.js?1602905981"></script>
-    <script src="/formulae/js/hugo-learn.js?1602905981"></script>
+    <script src="/calculators-formulae/js/modernizr.custom-3.6.0.js?1603066491"></script>
+    <script src="/calculators-formulae/js/learn.js?1603066491"></script>
+    <script src="/calculators-formulae/js/hugo-learn.js?1603066491"></script>
     
     
 
