@@ -22,7 +22,7 @@ The second part of this calculator calculates values related to the piston speed
 #### Figure
 
 
-![](/image/piston_diagram.jpg)
+![](../../image/piston_diagram.jpg)
 
 #### Terms
 

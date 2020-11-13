@@ -12,7 +12,7 @@ This calculator will calculate for either the hold-force or load-force by way of
 
 #### Figure
 
-![](/image/capstan_hold.jpg)
+![](../../image/capstan_hold.jpg)
 
 #### Terms
 

@@ -13,7 +13,7 @@ Calculates the payout (in feet), and total number of wraps for a yoyo drum, with
 
 #### Figure
 
-![](/image/drum_yoyo_payout.jpg)
+![](../../image/drum_yoyo_payout.jpg)
 
 #### Terms
 

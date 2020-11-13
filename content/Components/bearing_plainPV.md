@@ -35,7 +35,7 @@ This calculator does *not* address any issues beyond P, V, and PV calculations, 
 
 ##### Radial Figure
 
-![Radial Figure](/image/Bearing_plainPV.jpg)
+![Radial Figure](../../image/Bearing_plainPV.jpg)
 
 ##### Radial Terms
 
@@ -65,7 +65,7 @@ $$
 
 ##### Thrust Figure
 
-![Thrust Figure](/image/Bearing_plainPV_thrust.jpg)
+![Thrust Figure](../..`/image/Bearing_plainPV_thrust.jpg)
 
 
 ##### Thrust Terms

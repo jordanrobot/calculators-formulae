@@ -12,7 +12,7 @@ Calculates the maximum distance between internal braces in a helical cable drum.
 
 #### Figure
 
-![](/image/drum_unbraced_length.jpg)
+![](../../image/drum_unbraced_length.jpg)
 
 #### Terms
 

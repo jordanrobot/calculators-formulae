@@ -25,7 +25,7 @@ $$ \frac {Force} {Diameter_{cable} \times Diameter_{tread}} $$
 
 #### Figure
 
-![](/image/pulleys.jpg)
+![](../../image/pulleys.jpg)
 
 #### Terms
 

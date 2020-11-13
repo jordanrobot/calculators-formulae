@@ -12,7 +12,7 @@ This calculator will calculate for all three variables by way of a user-selected
 
 #### Figure
 
-![](/image/fleet_angle.jpg)
+![](../../image/fleet_angle.jpg)
 
 #### Terms
 

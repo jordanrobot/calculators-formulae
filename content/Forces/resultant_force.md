@@ -13,7 +13,7 @@ Calculates the maximum force on a pulley or pin where:
 
 #### Figure
 
-![](/image/resultant_force.jpg)
+![](../../image/resultant_force.jpg)
 
 #### Terms
 

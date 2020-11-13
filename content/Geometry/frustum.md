@@ -11,8 +11,8 @@ This calculator calculates the flat pattern for a right-angle conical frustum.
 
 #### Figure
 
-![](/image/frustum_1.jpg)
-![](/image/frustum_2.jpg)
+![](../../image/frustum_1.jpg)
+![](../../image/frustum_2.jpg)
 
 
 #### Terms

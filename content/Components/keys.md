@@ -20,7 +20,7 @@ The calculator selects a standard key size (height &times; width) based on the k
 
 #### Figure
 
-![](/image/keys.png)
+![](../../image/keys.png)
 
 #### Terms
 

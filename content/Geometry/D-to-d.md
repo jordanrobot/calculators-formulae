@@ -14,7 +14,7 @@ Calculates:
 
 #### Figure
 
-![](/image/pulleys.jpg)
+![](../../image/pulleys.jpg)
 
 #### Terms
 
