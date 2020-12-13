@@ -45,5 +45,5 @@ weight = 10
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Blog"
-url = "https://scenic-shop.com/wp/"
+url = "https://scenic-shop.com/blog/"
 weight = 30
