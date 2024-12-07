@@ -1,4 +1,4 @@
-baseURL = "http://scenic-shop.com/calculators-formulae/"
+baseURL = "http://formulae.scenic-shop.com/"
 #baseURL = "http://localhost:1313/calculators-formulae/"
 languageCode = "en-US"
 defaultContentLanguage = "en"
@@ -11,7 +11,6 @@ metaDataFormat = "yaml"
 defaultContentLanguageInSubdir= true
 
 [params]
-#  editURL = "https://github.com/jordanrobot/calculators-formulae/edit/master/content/"
   description = "Documentation for the Scenic-Shop Calculators"
   author = "Matthew D. Jordan"
   showVisitedLinks = false
@@ -40,10 +39,10 @@ weight = 11
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bookmark'></i> Calculators"
 identifier = "hugodoc"
-url = "https://scenic-shop.com/Calculators/"
+url = "https://calculators.scenic-shop.com/"
 weight = 10
 
 [[Languages.en.menu.shortcuts]]
 name = "<i class='fas fa-fw fa-bullhorn'></i> Blog"
-url = "https://scenic-shop.com/blog/"
+url = "https://scenic-shop.com/"
 weight = 30
