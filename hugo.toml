@@ -105,3 +105,20 @@ weight = 10
 name = "<i class='fas fa-fw fa-bullhorn'></i> Blog"
 url = "https://scenic-shop.com/"
 weight = 30
+
+[params.relearn.dependencies]
+  [params.relearn.dependencies.math]
+    name = 'Math'
+  [params.relearn.dependencies.mermaid]
+    name = 'Mermaid'
+  [params.relearn.dependencies.openapi]
+    name = 'OpenApi'
+
+[outputFormats]
+  [outputFormats.print]
+    name= 'print'
+    baseName = 'index.print'
+    isHTML = true
+    mediaType = 'text/html'
+    permalinkable = false
+    noUgly = true
