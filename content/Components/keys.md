@@ -59,10 +59,10 @@ Compression area:
 $$ A_{c} = \frac {h \times l} {2} $$
 
 Actual shear stress:
-$$ \sigma_{s} = \frac {2 T}{d \\, l \\, w} $$
+$$ \sigma_{s} = \frac {2 T}{d \, l \, w} $$
 
 Actual compressions stress:
-$$ \sigma_{c} = \frac {4 T}{d \\, l \\, h} $$
+$$ \sigma_{c} = \frac {4 T}{d \, l \, h} $$
 
 Allowable shear stress:
 $$ \tau_{s} = \frac {0.5 F_{y}}{S} $$

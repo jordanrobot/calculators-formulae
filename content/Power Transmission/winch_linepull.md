@@ -38,11 +38,11 @@ $F$   = force of line, *pounds force*
 
 ##### Force
 
-$$ F = \frac {5252 \\, P} {0.5 \\, D \\, n} \eta \\, r $$
+$$ F = \frac {5252 \, P} {0.5 \, D \, n} \eta \, r $$
 
 ##### Velocity
 
-$$ v = \frac {\pi \\, n \\, D}{60 \\, r} $$ 
+$$ v = \frac {\pi \, n \, D}{60 \, r} $$ 
 
 
 #### Sources
