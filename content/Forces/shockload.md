@@ -26,7 +26,7 @@ Calculates the force subjected to a body during a shockload event for the follow
 
 ##### Equation
 
-$$ F_{shock} = m \\, \left( \frac {l_{fall}}{d} + 1 \right) $$
+$$ F_{shock} = m \, \left( \frac {l_{fall}}{d} + 1 \right) $$
 
 
 #### By Wire Rope
@@ -48,8 +48,8 @@ $$ F_{shock} = m \\, \left( \frac {l_{fall}}{d} + 1 \right) $$
 $$ F_{shock} = \left( 
     1 + \sqrt {
         1+ \frac
-        { 2 \\, l_{fall} \\, E \\, x \\, d_{rope}^2}
-        { 12 \\, m \\, l_{rope} }
+        { 2 \, l_{fall} \, E \, x \, d_{rope}^2}
+        { 12 \, m \, l_{rope} }
 }
 \right) $$
 
@@ -83,17 +83,17 @@ $$ F_{shock} = \left(
 
 ##### Equations
 
-$$ a =  \frac {0.005 \\, y \\, l_{rope} }{F_{rope}} $$
+$$ a =  \frac {0.005 \, y \, l_{rope} }{F_{rope}} $$
 
-$$ b = -2 \\, a \\, m $$
+$$ b = -2 \, a \, m $$
 
-$$ c = \frac {-m \\, l_{fall}}{12} $$
+$$ c = \frac {-m \, l_{fall}}{12} $$
 
 $$ F_{shock} = \left( 
     \frac
     { -b + \sqrt 
-        {b^2 - (4 \\, a \\, c)}}
-    {4 \\, a}
+        {b^2 - (4 \, a \, c)}}
+    {4 \, a}
 \right) $$
 
 #### Sources

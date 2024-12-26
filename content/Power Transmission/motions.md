@@ -60,10 +60,10 @@ $v$ = Max speed, *ft per sec*
 #### Motion Equations:
 
 Accel Distance:
-$$ D_{a} = \frac {a \\, T_{a}^2} {2} $$
+$$ D_{a} = \frac {a \, T_{a}^2} {2} $$
 
 Decel Distance:
-$$ D_{d} = \frac {d \\, T_{d}^2} {2} $$
+$$ D_{d} = \frac {d \, T_{d}^2} {2} $$
 
 Total Time of move:
 $$ T = \left( \frac {v}{a} \right) +
@@ -85,16 +85,16 @@ $F_{d}$ = Force required to decelerate, *lbf*
 $\mu$ = Coefficient of friction, *unitless*
 
 For Horizonal & CWA movement:
-$$ F_{a} = \frac {m}{32.2} \\, a + (m \mu) $$
-$$ F_{d} = \frac {m}{32.2} \\, d + (m \mu) $$
+$$ F_{a} = \frac {m}{32.2} \, a + (m \mu) $$
+$$ F_{d} = \frac {m}{32.2} \, d + (m \mu) $$
 
 Lift on acceleration:
-$$ F_{a} = m + \left( \frac {m}{32.2} \\, a \right) + (m \mu)$$
-$$ F_{d} = m - \left( \frac {m}{32.2} \\, d \right) + (m \mu)$$
+$$ F_{a} = m + \left( \frac {m}{32.2} \, a \right) + (m \mu)$$
+$$ F_{d} = m - \left( \frac {m}{32.2} \, d \right) + (m \mu)$$
 
 Lower on Acceleration:
-$$ F_{a} = m - \left( \frac {m}{32.2} \\, a \right) + (m \mu)$$
-$$ F_{d} = m + \left( \frac {m}{32.2} \\, d \right) + (m \mu)$$
+$$ F_{a} = m - \left( \frac {m}{32.2} \, a \right) + (m \mu)$$
+$$ F_{d} = m + \left( \frac {m}{32.2} \, d \right) + (m \mu)$$
 
 #### Power Equations
 
@@ -105,6 +105,6 @@ $P_{kW}$ = power, *kW*
 &eta; = System efficiency, *percentage*
 
 $$ F = \left|F_{a}\right| \vee \left|F_{d}\right| $$
-$$ P_{hp} = \frac {F \\, v}{550 \eta} $$
+$$ P_{hp} = \frac {F \, v}{550 \eta} $$
 
 $$ P_{kW} = 0.7457 P_{hp} $$

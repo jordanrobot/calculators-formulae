@@ -24,8 +24,8 @@ $\phi$ = included angle, *degrees*
 
 #### Equations
 
-$$ \phi = atan \\, \left( \frac {d}{D} \right) $$
+$$ \phi = atan \, \left( \frac {d}{D} \right) $$
 
-$$ d = D \\, tan \\, \phi $$
+$$ d = D \, tan \, \phi $$
 
-$$ D = \frac {d}{tan \\, \phi} $$
+$$ D = \frac {d}{tan \, \phi} $$

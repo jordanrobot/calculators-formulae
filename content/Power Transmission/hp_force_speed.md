@@ -32,5 +32,5 @@ $$ F =  \frac {550P}{v} \eta $$
 
 ##### Power
 
-$$ P = \frac {F \\, v}{550 \eta}  $$ 
+$$ P = \frac {F \, v}{550 \eta}  $$ 
 

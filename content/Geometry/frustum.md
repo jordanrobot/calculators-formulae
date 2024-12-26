@@ -43,19 +43,19 @@ Inclided angle of conical frustum...
 $$ \phi = \arctan \left( \frac {R - r'}{h} \right) $$
 
 Large flattened radius...
-$$ S = \frac {R}{\sin \\, \phi} $$
+$$ S = \frac {R}{\sin \, \phi} $$
 
 Slant height...
-$$ h' = h \sec \\, \phi $$
+$$ h' = h \sec \, \phi $$
 
 Small flattened radius...
 $$ s' = S - h' $$
 
 Flattened angle...
-$$ \theta = 2 \pi \sin \\, \phi $$
+$$ \theta = 2 \pi \sin \, \phi $$
 
 Arc Length (of radius S)...
-$$ l = S \\, \theta $$
+$$ l = S \, \theta $$
 
 Chord Length (of radius S)...
-$$ l' = 2 \\, S \sin {\frac {\theta}{2}} $$
+$$ l' = 2 \, S \sin {\frac {\theta}{2}} $$

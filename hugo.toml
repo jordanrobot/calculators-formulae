@@ -1,0 +1,124 @@
+baseURL = "http://formulae.scenic-shop.com/"
+#baseURL = "http://localhost:1313/calculators-formulae/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Scenic-Shop Calculators Formulae"
+theme = 'hugo-theme-relearn'
+themesdir = "themes/"
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= false
+
+[params]
+  author.name = "Matthew D. Jordan"
+  showVisitedLinks = false
+  disableBreadcrumb = true
+  disableNextPrev = true
+  mermaid = false
+  math=true
+  titleSeparator = "::"
+  themeVariant = ['relearn-light', 'relearn-dark']
+
+[markup]
+  [markup.goldmark]
+    duplicateResourceFiles = false
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      linkifyProtocol = 'https'
+      strikethrough = true
+      table = true
+      taskList = true
+      [markup.goldmark.extensions.cjk]
+        eastAsianLineBreaks = false
+        eastAsianLineBreaksStyle = 'simple'
+        enable = false
+        escapedSpace = false
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+          enable = false
+        [markup.goldmark.extensions.extras.insert]
+          enable = false
+        [markup.goldmark.extensions.extras.mark]
+          enable = false
+        [markup.goldmark.extensions.extras.subscript]
+          enable = false
+        [markup.goldmark.extensions.extras.superscript]
+          enable = false
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+      [markup.goldmark.extensions.typographer]
+        apostrophe = '&rsquo;'
+        disable = false
+        ellipsis = '&hellip;'
+        emDash = '&mdash;'
+        enDash = '&ndash;'
+        leftAngleQuote = '&laquo;'
+        leftDoubleQuote = '&ldquo;'
+        leftSingleQuote = '&lsquo;'
+        rightAngleQuote = '&raquo;'
+        rightDoubleQuote = '&rdquo;'
+        rightSingleQuote = '&rsquo;'
+    [markup.goldmark.parser]
+      autoHeadingID = true
+      autoHeadingIDType = 'github'
+      wrapStandAloneImageWithinParagraph = true
+      [markup.goldmark.parser.attribute]
+        block = false
+        title = true
+    [markup.goldmark.renderHooks]
+      [markup.goldmark.renderHooks.image]
+        enableDefault = false
+      [markup.goldmark.renderHooks.link]
+        enableDefault = false
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = true
+      xhtml = false
+
+[outputs]
+home = [ "HTML", "RSS"]
+
+[Languages]
+[Languages.en]
+title = "Formulae"
+weight = 1
+languageName = "English"
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fab fa-fw fa-github'></i> GitHub repo"
+identifier = "ds"
+url = "https://github.com/jordanrobot/calculators-formulae"
+weight = 11
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bookmark'></i> Calculators"
+identifier = "hugodoc"
+url = "https://calculators.scenic-shop.com/"
+weight = 10
+
+[[Languages.en.menu.shortcuts]]
+name = "<i class='fas fa-fw fa-bullhorn'></i> Blog"
+url = "https://scenic-shop.com/"
+weight = 30
+
+[params.relearn.dependencies]
+  [params.relearn.dependencies.math]
+    name = 'Math'
+  [params.relearn.dependencies.mermaid]
+    name = 'Mermaid'
+  [params.relearn.dependencies.openapi]
+    name = 'OpenApi'
+
+[outputFormats]
+  [outputFormats.print]
+    name= 'print'
+    baseName = 'index.print'
+    isHTML = true
+    mediaType = 'text/html'
+    permalinkable = false
+    noUgly = true

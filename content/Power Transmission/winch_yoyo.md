@@ -50,14 +50,14 @@ The following calculations are used regardless of the drum's current diameter...
 
 ##### Force
 
-$$ F = \frac {5252 \\, P} {0.5 D \\, n} n \\, \eta $$
+$$ F = \frac {5252 \, P} {0.5 D \, n} n \, \eta $$
 
 ##### Velocity
 
-$$ v = \frac {\pi \\, n \\,  D}{60 \\, r} $$ 
+$$ v = \frac {\pi \, n \,  D}{60 \, r} $$ 
 
 When calculating the ratio as the Force or Velocity variables are changed, rearrange as follows:
 
-$$ r = \frac {\pi \\, n \\, D}{60 \\, v} $$ 
+$$ r = \frac {\pi \, n \, D}{60 \, v} $$ 
 
 #### Sources
